@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Onest:wght@700&family=Outfit:wght@100;400;600;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Onest:wght@400;700&family=Outfit:wght@100;400;600;700&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Saol display" ,sans-serif ;
+}
+
+:root{
+    --primary-color:rgba(255, 255, 255, 1);
+    --secondary-color:rgba(0, 0, 0, 0.3);
+    --radial-gradient:rgba(195, 33, 37, 1);
+    --linear-gradient:rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0);
+    --button-color: #C32125;
+}
+.howcase{
+    /* position:absolute ; */
+    right: 0;
+    width: 100%;
+    height: 100vh; 
+    /* padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;*/
+    background: rgba(0, 0, 0, 0.30); 
+    /* z-index: 2; */
+     
+    
+}
+.showcase header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px; 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.menu ul li {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 1em;
+}
+ .menu a{
+    color: #FFF;
+    font-family:"onest", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+ }
+.toggle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: url(/images/hamburger-menu-icon-png-10-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: center;
+    cursor: pointer;
+    display: none;
+}
+.toogle.active{
+
+    background: url();
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: center;
+
+}
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    
+}
+.overlay{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.30);
+    mix-blend-mode: overlay;
+}
+.overlay-text{
+    position: absolute;
+    z-index: 1000;
+    bottom: 3em;
+    left: 7em;
+    
+    
+}
+.overlay-text h2{
+    width: auto;
+    height: auto;
+    color: #FFF;
+    font-family: Saol Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+   
+}
+.overlay-text p{
+    width: 537px;
+    height: 44px;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-top: 1em;
+}
+.buttons-container{
+    display: flex;
+    margin-top: 1.4em;
+  
+}
+.button1{
+    background-color: var(--button-color);
+    border: none;
+}
+.button2{
+    display: flex;
+    padding: 17.045px 34.091px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.523px;
+    background-color: inherit;
+    border: 0.3px solid #FFF;
+    margin-left: 1.4em;
+}
+.buttons-container button {
+    display: flex;
+    padding: 17.045px 34.091px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.523px;
+    color: #FFF;
+    font-family: "Onest", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.54px;    
+}
+
+ .section2{
+    background: #0C0D28; 
+    background-image: url(/images/texture.png);
+    background-blend-mode: multiply;
+    background-size: cover;
+    width: 100%;
+    height: 607px;
+    flex-shrink: 0;
+    padding: 5em;
+    /* position: absolute; */
+    z-index: 1000;
+   
+}
+
+.section2 h3{
+    color: #FFF;
+    font-family:" Onest" sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin-top: 10em; */
+}
+.section2-img-container{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(100px ,1fr));
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.section2-img-container img{
+    width: 95%;
+    height: fit-content;
+    flex-shrink: 0;
+}
+
+.section2-img-container h2{
+    color:#FFF;
+    font-family: 'Saol Display' sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.49%;  /*27.098px  */
+    text-transform: uppercase; 
+    color: rgba(255, 255, 255, 1);
+    margin-top: -5em;
+    width: 224px;
+    padding-left: 1em;  
+ } 
+
+ .section3{
+    background: url(/images/Noise\ &\ Texture\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 733px;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px ,1fr));
+    align-items: center;
+
+}
+
+.section3-img-container{
+    display: flex;
+    padding-left: 3em;
+}
+.section3-img-container img{
+    width: 50%;
+    height: 470px;
+    flex-shrink: 0;
+    
+}
+.section3-text-container{
+    padding-left: 5em;
+}
+.section3 h2{ 
+    width: 414px;
+    color: #FFF;
+    font-family: Saol Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+.section3 p{
+    width: 404px;
+    color: #ffffffb4;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 143.5%; /* 22.96px */
+    margin-top: 1em;
+}
+.buttons-container2{
+    display: flex;
+    display: center;
+    margin-top: 1em;
+}
+.watch-button{
+    display: flex;
+    width: 175px;
+    height: 61px;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: "Onest" sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #FFF;
+    background: #FFF;
+   
+}
+.message-libary-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-left: 1em;
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 16px;
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;  
+}
+
+.section4{
+    background-color: #FFF5E8;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px ,1fr));
+    align-items: center;
+    padding: 5em 0em;
+    
+}
+.section4-text-container{
+    margin-top: 3em;
+    padding-left: 5em;
+
+}
+.section4 h2{
+    width: 497px;
+    color: #000;
+    font-family: Saol Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section4 p{
+    width: 468px;
+    color: #2B2B2B;
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    margin-top: 1em;
+    }
+.line{
+    background: #D99F4B;
+    width: 86px;
+    height: 5px;
+    margin-top: 1em;
+    border-radius: 2px;
+}
+.section4 h3{
+    width: 332.455px;
+    color: #2B2B2B;
+    font-family: Saol Display;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 136.5%; /* 24.57px */
+    text-transform: uppercase;
+    margin-top: 1em;
+}
+.section4-img-container img{
+    width: 90%;
+    height: auto;
+    flex-shrink: 0;
+   
+}
+.section4-img-container{
+    margin-top: 5em;
+    justify-content: end;
+   
+    
+}
+.sections-5-6-container{
+    background-color: #FFF;
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+}
+.section5{
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px ,1fr));
+   padding: 5em 0;
+}
+.section5 h2{
+    width: 506px;
+    color: #000;
+    font-family: Saol Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.line2{
+    width: 306px;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-top: 1em;
+}
+.section5 p{
+    width: 405px;
+    color: #6C6C6C;
+    font-family: Onest;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171.5%; /* 24.01px */
+    margin-top: 1.5em;
+}
+.know-more{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #C32125;
+    border: none;
+    color: #FFF;
+    font-family: "Onest", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.81px;
+    margin-top: 1.5em;
+}
+.section5-img-container img{
+    width: 100%;
+    height:auto;
+    margin-top: 1em;
+}
+.section5-text-container{
+    align-items: center;
+    margin-top: 9em;
+    padding-left: 4em;
+}
+
+.section6{
+    background-color: #FFF;
+    width: 100%;
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px ,1fr));
+   padding: 5em 1em;
+
+}
+.section6-text-container{
+    padding-left: 5em;
+    margin-top: 4em;
+    align-items: center;
+}
+.section6 h2{
+    width: 470px;
+    color: #000;
+    font-family: Saol Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section6 p{
+    width: 440px;
+    color: #6C6C6C;
+    font-family: Onest;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171.5%; /* 24.01px */
+    margin-top: 2em;
+}
+.section6-img-container{
+    text-align: end;
+}
+.section6-img-container img{
+    width: 100%;
+    height:auto;
+    padding-right: 3em;
+}
+.section6-text-container span{
+margin-top: 2em;
+}
+
+.section8{
+    padding: 3em;
+}
+.section8 h2{
+    width: 711px;
+    padding-left: .2em;
+    color: #000;
+    font-family: Saol Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.section8-img-area{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+.section8-img-area img{
+    margin: 1em;
+    width: 95%;
+    height: auto;
+}
+.section8-img-text-container {
+   
+}
+.section8-img-text-container p{
+    color: #F46918;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 1em;
+}
+.section8-img-text-container h6{
+    color: #000;
+    font-family: Saol Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 151%; /* 60.4px */
+    text-transform: uppercase;
+    padding-left: .2em;
+    margin-top: .7em;
+}
+.section8-img-text-container button{
+    border: none;
+    background-color: none;
+    color: #9B9B9B;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-color: transparent;
+    padding-left: .6em;
+    margin-top: 1em;
+}
+
+.section10{
+    background: url(/images/Rectangle\ 16701.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 858px;
+    flex-shrink: 0;
+}
+.section10-content-area{
+    display: flex;
+    padding: 5em;
+    justify-content: space-around;
+}
+.section10-content-area{
+    width: 100%;
+    height:auto;
+    flex-shrink: 0;
+}
+.section10 h2{
+    color: #FFF;
+    font-family: Saol Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-top: 3em;
+    padding-left: 3em;
+   }
+.section10-content-area img{
+    width: 95%;
+    
+}
+.section10-content-area-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.815px solid rgba(255, 255, 255, 0.24);
+    margin-top: 1em;
+}
+
+.section10-content-area-container h1{
+    color: #FFF;
+    font-family: Saol Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 2em;
+
+}
+.section10-content-area-container p{
+    margin-top: 4em;
+    color: #FFF;
+    text-align: right;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 4em;
+}
+.crossing-line{
+   
+}
