@@ -521,14 +521,15 @@
    }
 
    .section10-content-area img{
-    width: 85%;
+    width: 90%;
+    margin-top: 2em;
     
 }
 .section10-content-area-container{
     display: flex;
     justify-content: space-between;
     border-bottom: 0.815px solid rgba(255, 255, 255, 0.24);
-    margin-top: 1em;
+    margin-top: 3em;
 }
 .section10-content-area-container h1{
     color: #FFF;
@@ -537,11 +538,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 2em;
+    
 
 }
 .section10-content-area-container p{
-    margin-top: 4em;
+    /* margin-top: 4em; 
+    */
+    padding-top: 1em;
     color: #FFF;
     text-align: right;
     font-family: Onest;
@@ -550,4 +553,81 @@
     font-weight: 500;
     line-height: normal;
     /* padding-left: 2em; */
+}
+
+footer{
+    background:url(/images/footer-img.png)
+}
+.footer-line{
+    width: 90%;
+    margin: 2% auto;
+    height: 1px;
+    flex-shrink: 0;
+    background: rgba(217, 217, 217, 0.13); 
+}
+footer h2{
+    color: #FFF;
+    font-family: Saol Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+    width: 367px;
+}
+footer p{
+    width: 414px;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 25.6px */
+    letter-spacing: 0.72px;
+}
+footer input{
+    width: 362px;
+    height: 56px;
+    padding: 18px 241px 20px 29px;
+    align-items: center;
+    border: 0.5px solid rgba(255, 255, 255, 0.17);
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(70px);
+}
+.susbscribe-button{
+    width: 148px;
+    height: 56px;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #C32125;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 16px;
+    border: none;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+footer li{
+    margin-top:1em;
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+    letter-spacing: 0.72px;
+    list-style-type: none;
+}
+footer .active{
+    color: #FFF;
+    font-family: Onest;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+    letter-spacing: 0.9px;
 }
