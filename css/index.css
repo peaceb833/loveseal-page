@@ -156,15 +156,16 @@
     letter-spacing: 0.54px;    
 }
 
- .section2{
+
+.section2{
     background: #0C0D28; 
     background-image: url(/images/texture.png);
     background-blend-mode: multiply;
     background-size: cover;
-    width: 100%;
+    /* width: 100%;
     height: 607px;
     flex-shrink: 0;
-    padding: 5em;
+    padding: 5em; */
     /* position: absolute; */
     z-index: 1000;
    
@@ -179,18 +180,18 @@
     line-height: normal;
     /* margin-top: 10em; */
 }
-.section2-img-container{
+/* .section2-img-container{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(100px ,1fr));
     justify-content: center;
     margin-top: 3em;
-}
+} */
 
-.section2-img-container img{
+/* .section2-img-container img{
     width: 95%;
     height: fit-content;
     flex-shrink: 0;
-}
+} */
 
 .section2-img-container h2{
     color:#FFF;
@@ -206,31 +207,23 @@
     padding-left: 1em;  
  } 
 
+
+
  .section3{
     background: url(/images/Noise\ &\ Texture\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 733px;
-    flex-shrink: 0;
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px ,1fr));
-    align-items: center;
+   
 
 }
 
 .section3-img-container{
-    display: flex;
-    padding-left: 3em;
 }
 .section3-img-container img{
-    width: 50%;
-    height: 470px;
-    flex-shrink: 0;
     
 }
 .section3-text-container{
-    padding-left: 5em;
+    margin-top: 7em;
 }
 .section3 h2{ 
     width: 414px;
@@ -290,19 +283,13 @@
     line-height: normal;  
 }
 
+
 .section4{
     background-color: #FFF5E8;
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px ,1fr));
-    align-items: center;
-    padding: 5em 0em;
     
 }
 .section4-text-container{
-    margin-top: 3em;
+    margin-top: 5em;
     padding-left: 5em;
 
 }
@@ -344,46 +331,30 @@
     text-transform: uppercase;
     margin-top: 1em;
 }
-.section4-img-container img{
-    width: 90%;
-    height: auto;
-    flex-shrink: 0;
-   
-}
-.section4-img-container{
-    margin-top: 5em;
-    justify-content: end;
-   
-    
-}
+
 .sections-5-6-container{
     background-color: #FFF;
-    width: 100%;
-    height: auto;
-    flex-shrink: 0;
 }
-.section5{
-    flex-shrink: 0;
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px ,1fr));
-   padding: 5em 0;
-}
+
 .section5 h2{
     width: 506px;
     color: #000;
     font-family: Saol Display;
-    font-size: 56px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
+    
 }
+
 .line2{
     width: 306px;
     height: 1px;
     background-color: #D9D9D9;
     margin-top: 1em;
 }
+
 .section5 p{
     width: 405px;
     color: #6C6C6C;
@@ -394,6 +365,7 @@
     line-height: 171.5%; /* 24.01px */
     margin-top: 1.5em;
 }
+
 .know-more{
     display: flex;
     padding: 20px 40px;
@@ -412,14 +384,13 @@
     margin-top: 1.5em;
 }
 .section5-img-container img{
-    width: 100%;
+    width: 85%;
     height:auto;
     margin-top: 1em;
 }
 .section5-text-container{
-    align-items: center;
     margin-top: 9em;
-    padding-left: 4em;
+   
 }
 
 .section6{
@@ -440,7 +411,7 @@
     width: 470px;
     color: #000;
     font-family: Saol Display;
-    font-size: 56px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -449,7 +420,7 @@
 .section6 p{
     width: 440px;
     color: #6C6C6C;
-    font-family: Onest;
+    font-family: "Onest",sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -460,12 +431,9 @@
     text-align: end;
 }
 .section6-img-container img{
-    width: 100%;
+    width: 85%;
     height:auto;
     padding-right: 3em;
-}
-.section6-text-container span{
-margin-top: 2em;
 }
 
 .section8{
@@ -473,10 +441,10 @@ margin-top: 2em;
 }
 .section8 h2{
     width: 711px;
-    padding-left: .2em;
+    padding-left: 3em;
     color: #000;
     font-family: Saol Display;
-    font-size: 56px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -507,7 +475,7 @@ margin-top: 2em;
 .section8-img-text-container h6{
     color: #000;
     font-family: Saol Display;
-    font-size: 40px;
+    /* font-size: 40px; */
     font-style: normal;
     font-weight: 400;
     line-height: 151%; /* 60.4px */
@@ -533,20 +501,13 @@ margin-top: 2em;
     background: url(/images/Rectangle\ 16701.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 858px;
     flex-shrink: 0;
 }
 .section10-content-area{
-    display: flex;
     padding: 5em;
     justify-content: space-around;
 }
-.section10-content-area{
-    width: 100%;
-    height:auto;
-    flex-shrink: 0;
-}
+
 .section10 h2{
     color: #FFF;
     font-family: Saol Display;
@@ -556,10 +517,11 @@ margin-top: 2em;
     line-height: normal;
     text-transform: uppercase;
     padding-top: 3em;
-    padding-left: 3em;
+    padding-left: 2em;
    }
-.section10-content-area img{
-    width: 95%;
+
+   .section10-content-area img{
+    width: 85%;
     
 }
 .section10-content-area-container{
@@ -568,7 +530,6 @@ margin-top: 2em;
     border-bottom: 0.815px solid rgba(255, 255, 255, 0.24);
     margin-top: 1em;
 }
-
 .section10-content-area-container h1{
     color: #FFF;
     font-family: Saol Display;
@@ -588,8 +549,5 @@ margin-top: 2em;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-left: 4em;
-}
-.crossing-line{
-   
+    /* padding-left: 2em; */
 }
