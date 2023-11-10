@@ -97,7 +97,7 @@
 .overlay-text{
     position: absolute;
     z-index: 1000;
-    bottom: 3em;
+    bottom: 10em;
     left: 7em;
     
     
@@ -229,7 +229,7 @@
     margin-top: 7em;
 }
 .section3 h2{ 
-    width: 414px;
+    width: 322px;
     color: #FFF;
     font-family: Saol Display;
     font-size:var(--header-text);
@@ -297,7 +297,7 @@
 
 }
 .section4 h2{
-    width: 497px;
+    width: 299px;
     color: #000;
     font-family: Saol Display;
     font-size:var(--header-text);
@@ -411,7 +411,7 @@
     align-items: center;
 }
 .section6 h2{
-    width: 325px;
+    width: 346px;
     color: #000;
     font-family: Saol Display;
     font-size: var(--header-text);
@@ -446,7 +446,7 @@
     height: 40vh;
     text-transform: uppercase;
     position:relative;
-    top: 22em;
+    /* top: 22em; */
     z-index: -100;
    
 
@@ -460,6 +460,7 @@
     background-repeat: no-repeat;
     width:100% ;
     height: 100vh;
+    margin-top: -20em;
     
    
 }
