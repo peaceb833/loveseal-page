@@ -14,6 +14,9 @@
     --radial-gradient:rgba(195, 33, 37, 1);
     --linear-gradient:rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0);
     --button-color: #C32125;
+    --header-text:35px;
+    --paragraph:16px;
+    
 }
 .howcase{
     /* position:absolute ; */
@@ -104,7 +107,7 @@
     height: auto;
     color: #FFF;
     font-family: Saol Display;
-    font-size: 48px;
+    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -229,7 +232,7 @@
     width: 414px;
     color: #FFF;
     font-family: Saol Display;
-    font-size: 48px;
+    font-size:var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -297,7 +300,7 @@
     width: 497px;
     color: #000;
     font-family: Saol Display;
-    font-size: 48px;
+    font-size:var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -337,10 +340,10 @@
 }
 
 .section5 h2{
-    width: 506px;
+    width: 364px;
     color: #000;
     font-family: Saol Display;
-    font-size: 50px;
+    font-size:var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -408,10 +411,10 @@
     align-items: center;
 }
 .section6 h2{
-    width: 470px;
+    width: 325px;
     color: #000;
     font-family: Saol Display;
-    font-size: 50px;
+    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -436,36 +439,50 @@
     padding-right: 3em;
 }
 
+.under-layer{
+    background: url(/images/Rectangle\ 16694.png);
+    width: 50%;
+    margin: 1% auto;
+    height: 40vh;
+    text-transform: uppercase;
+    position:relative;
+    top: 22em;
+    z-index: -100;
+   
+
+}
+.under-layer h1{
+    
+}
+.section7{
+    background: url(/images/Frame\ 41440537.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100% ;
+    height: 100vh;
+    
+   
+}
+
 .section8{
     padding: 3em;
 }
 .section8 h2{
-    width: 711px;
-    padding-left: 3em;
+    width: 534px;
+    padding-left: 2em;
     color: #000;
     font-family: Saol Display;
-    font-size: 40px;
+    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
-.section8-img-area{
-    display: flex;
-    justify-content: center;
-    margin-top: 3em;
-}
-.section8-img-area img{
-    margin: 1em;
-    width: 95%;
-    height: auto;
-}
-.section8-img-text-container {
-   
+.section8-img-text-container h4{
 }
 .section8-img-text-container p{
     color: #F46918;
-    font-family: Onest;
+    font-family: "Onest", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -473,6 +490,7 @@
     padding-left: 1em;
 }
 .section8-img-text-container h6{
+    width: 426px;
     color: #000;
     font-family: Saol Display;
     /* font-size: 40px; */
@@ -495,6 +513,41 @@
     background-color: transparent;
     padding-left: .6em;
     margin-top: 1em;
+}
+
+.section9{
+    background: url(/images/WhatsApp\ Image\ 2023-09-22\ at\ 07.08\ 1\ \(1\).png);
+    width:100%;
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section9 h1{
+    color: #FFF;
+    font-family: Saol Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 3em;
+    width: 415px;
+   
+}
+.section9 img{
+
+}
+.section9 p{
+    width: 435px;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 24px */
+}
+.section9 span{
+    
 }
 
 .section10{
@@ -556,7 +609,12 @@
 }
 
 footer{
-    background:url(/images/footer-img.png)
+    background:url(/images/custom-gradient-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center right;
+
+    
 }
 .footer-line{
     width: 90%;
@@ -568,7 +626,7 @@ footer{
 footer h2{
     color: #FFF;
     font-family: Saol Display;
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
