@@ -17,7 +17,7 @@
 }
 
 
-.showcase header{
+ header{
     background-color: #0C0D28;;
     width: 100%;
     height: fit-content;
@@ -70,7 +70,7 @@
     margin-left: -4em;
     margin-top: -.6em;
 }
-.line{
+.under-line{
     width: 292px;
     height: 1px;
     flex-shrink: 0;
@@ -112,3 +112,136 @@
     font-weight: 300;
     line-height: 180.5%; /* 32.49px */
 }
+
+.about-section1{
+    background-color: #FFF5E8;
+    padding: 5em 0em;
+    height: 1650px;
+    width: 100%;
+
+   
+}
+.about-section1 h2{
+    width: 405px;
+    color: #020213;
+    font-family: Saol Display;
+    font-size: var(--header-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 0px */
+    text-transform: uppercase;
+    
+}
+.about-section2 p{
+    width: 564px;
+    color: #2B2B2B;
+    font-family:" Onest"sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 199%; /* 37.08px */
+    margin-top: 3em;
+}
+.about-section2{
+    padding-left: 6em;
+}
+.about-section3-text-content{
+    margin-top: 7em;
+}
+.about-section3 h2{
+    width: 404px;
+    color: #000;
+    font-family: Saol Display;
+    font-size:var(--header-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 0px */
+    text-transform: uppercase;
+}
+
+.under-line2{
+    width: 225px;
+    height: 1px;
+    background-color: #D9D9D9;
+}
+.about-section3 span{
+    color: #F46918;
+    font-family: Onest;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 171.5%; /* 30.87px */
+}
+.about-section3 p{
+    width: 480px;
+    color: #2B2B2B;
+    font-family: Onest;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 206%; /* 37.08px */
+}
+
+
+.about-section5{
+    margin-top: 10em;
+
+}
+.about-section5 h1{
+    width: 778px;
+    margin: 0% auto;
+    color: #000;
+    text-align: center;
+    font-family: Saol Display;
+    font-size: var(--header-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.about-section5 h2{
+    width: 459px;
+    color: #000;
+    font-family: Saol Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.about-section5 p{
+    width: 421px;
+    color: #6C6C6C;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171.5%; /* 27.44px */
+}
+.about-section5-text-content{
+    margin-top: 7em;
+    
+}
+.about-section9 {
+    background-color: #FFF5E8;
+}
+.about-section9 h1{
+    color: #000;
+    text-align: center;
+    font-family: Saol Display;
+    font-size: var(--header-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+    .about-section9 p{
+    color: #6C6C6C;
+    text-align: center;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 171.5%; /* 27.44px */
+    
+    }
