@@ -245,3 +245,7 @@
     line-height: 171.5%; /* 27.44px */
     
     }
+    .about-section9-content img{
+        flex: 0 0 40%;
+        box-sizing: border-box;
+    }
