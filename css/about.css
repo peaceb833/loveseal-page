@@ -115,9 +115,9 @@
 
 .about-section1{
     background-color: #FFF5E8;
-    padding: 5em 0em;
+    /* padding: 5em 0em; */
     height: 1650px;
-    width: 100%;
+    width: 100%; 
 
    
 }
@@ -203,7 +203,7 @@
     width: 459px;
     color: #000;
     font-family: Saol Display;
-    font-size: 56px;
+    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -224,8 +224,11 @@
 }
 .about-section9 {
     background-color: #FFF5E8;
+    padding: 5em 0;
 }
 .about-section9 h1{
+    width: 981px;
+    margin: 1% auto;
     color: #000;
     text-align: center;
     font-family: Saol Display;
@@ -235,7 +238,9 @@
     line-height: normal;
     text-transform: uppercase;
     }
-    .about-section9 p{
+.about-section9 p{
+    width: 660px;
+    margin: 1% auto;
     color: #6C6C6C;
     text-align: center;
     font-family: Onest;
@@ -245,7 +250,23 @@
     line-height: 171.5%; /* 27.44px */
     
     }
-    .about-section9-content img{
-        flex: 0 0 40%;
-        box-sizing: border-box;
+.about-section9-content {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+.about-section9 button{
+    display: inline-flex;
+    padding: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #C32125;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.81px;
+    border: none;
     }
