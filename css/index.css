@@ -1,64 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Onest:wght@700&family=Outfit:wght@100;400;600;700&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Onest:wght@400;700&family=Outfit:wght@100;400;600;700&family=Poppins&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:"Saol display" ,sans-serif ;
+    font-family: "Saol display", sans-serif;
 }
 
-:root{
-    --primary-color:rgba(255, 255, 255, 1);
-    --secondary-color:rgba(0, 0, 0, 0.3);
-    --radial-gradient:rgba(195, 33, 37, 1);
-    --linear-gradient:rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0);
+:root {
+    --primary-color: rgba(255, 255, 255, 1);
+    --secondary-color: rgba(0, 0, 0, 0.3);
+    --radial-gradient: rgba(195, 33, 37, 1);
+    --linear-gradient: rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0);
     --button-color: #C32125;
-    --header-text:35px;
-    --paragraph:16px;
-    
+    --header-text: 35px;
+    --paragraph: 16px;
+
 }
-.howcase{
+
+.howcase {
     /* position:absolute ; */
-    right: 0;
+    /* right: 0; */
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
     /* padding: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;*/
-    background: rgba(0, 0, 0, 0.30); 
+    background: rgba(0, 0, 0, 0.30);
     /* z-index: 2; */
-     
-    
+
+
 }
-.showcase header{
-    position: absolute;
+
+.showcase header {
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
-    padding: 40px 100px; 
+    /* padding: 40px 100px; */
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
-.menu ul li {
-    display: inline-flex;
-    list-style-type: none;
-    padding: 1em;
-}
- .menu a{
+
+
+.menu ul,
+menu li,
+menu a {
     color: #FFF;
-    font-family:"onest", sans-serif;
+    font-family: "onest", sans-serif;
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
+<<<<<<< HEAD
  }
 
  
+=======
+}
+
+>>>>>>> 313a2cfb5b7ae8b77dcf557cbe1569a13100a06f
 .toggle {
     position: relative;
     width: 60px;
@@ -70,44 +76,31 @@
     cursor: pointer;
     display: none;
 }
+<<<<<<< HEAD
 .drop-menu {
     
 }
 .toogle.active{
+=======
+>>>>>>> 313a2cfb5b7ae8b77dcf557cbe1569a13100a06f
 
+.toogle.active {
     background: url();
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
 
 }
-.showcase video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-    
-}
-.overlay{
-    /* position: absolute; */
-    top: 0;
-    left: 0;
-    width: 100%;
+
+.overlay {
+
     height: 100vh;
     background: rgba(0, 0, 0, 0.30);
     mix-blend-mode: overlay;
 }
-.overlay-text{
-    position: absolute;
-    z-index: 1000;
-    bottom: 10em;
-    left: 7em;
-    
-    
-}
-.overlay-text h2{
+
+
+.overlay-text h2 {
     width: auto;
     height: auto;
     color: #FFF;
@@ -117,9 +110,10 @@
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-   
+
 }
-.overlay-text p{
+
+.overlay-text p {
     width: 537px;
     height: 44px;
     color: #FFF;
@@ -127,19 +121,23 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 22.4px */
+    line-height: 140%;
+    /* 22.4px */
     margin-top: 1em;
 }
-.buttons-container{
+
+.buttons-container {
     display: flex;
     margin-top: 1.4em;
-  
+
 }
-.button1{
+
+.button1 {
     background-color: var(--button-color);
     border: none;
 }
-.button2{
+
+.button2 {
     display: flex;
     padding: 17.045px 34.091px;
     justify-content: center;
@@ -149,6 +147,7 @@
     border: 0.3px solid #FFF;
     margin-left: 1.4em;
 }
+
 .buttons-container button {
     display: flex;
     padding: 17.045px 34.091px;
@@ -161,12 +160,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.54px;    
+    letter-spacing: 0.54px;
 }
 
 
-.section2{
-    background: #0C0D28; 
+.section2 {
+    background: #0C0D28;
     background-image: url(/images/texture.png);
     background-blend-mode: multiply;
     background-size: cover;
@@ -176,18 +175,19 @@
     padding: 5em; */
     /* position: absolute; */
     z-index: 1000;
-   
+
 }
 
-.section2 h3{
+.section2 h3 {
     color: #FFF;
-    font-family:" Onest" sans-serif;
+    font-family: " Onest" sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     /* margin-top: 10em; */
 }
+
 /* .section2-img-container{
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(100px ,1fr));
@@ -201,64 +201,69 @@
     flex-shrink: 0;
 } */
 
-.section2-img-container h2{
-    color:#FFF;
+.section2-img-container h2 {
+    color: #FFF;
     font-family: 'Saol Display' sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 135.49%;  /*27.098px  */
-    text-transform: uppercase; 
+    line-height: 135.49%;
+    /*27.098px  */
+    text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
     margin-top: -5em;
     width: 224px;
-    padding-left: 1em;  
- } 
+    padding-left: 1em;
+}
 
 
 
- .section3{
+.section3 {
     background: url(/images/Noise\ &\ Texture\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 
 }
 
-.section3-img-container{
-}
-.section3-img-container img{
-    
-}
-.section3-text-container{
+.section3-img-container {}
+
+.section3-img-container img {}
+
+.section3-text-container {
     margin-top: 7em;
 }
-.section3 h2{ 
+
+.section3 h2 {
     width: 322px;
     color: #FFF;
     font-family: Saol Display;
-    font-size:var(--header-text);
+    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    }
-.section3 p{
+}
+
+.section3 p {
     width: 404px;
     color: #ffffffb4;
     font-family: Onest;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 143.5%; /* 22.96px */
+    line-height: 143.5%;
+    /* 22.96px */
     margin-top: 1em;
 }
-.buttons-container2{
+
+.buttons-container2 {
     display: flex;
     display: center;
     margin-top: 1em;
 }
-.watch-button{
+
+.watch-button {
     display: flex;
     width: 175px;
     height: 61px;
@@ -272,9 +277,10 @@
     line-height: normal;
     border: 1px solid #FFF;
     background: #FFF;
-   
+
 }
-.message-libary-button{
+
+.message-libary-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -288,93 +294,101 @@
 
     font-style: normal;
     font-weight: 400;
-    line-height: normal;  
+    line-height: normal;
 }
 
 
-.section4{
+.section4 {
     background-color: #FFF5E8;
-    
+
 }
-.section4-text-container{
+
+.section4-text-container {
     margin-top: 5em;
     padding-left: 5em;
 
 }
-.section4 h2{
+
+.section4 h2 {
     width: 299px;
     color: #000;
     font-family: Saol Display;
-    font-size:var(--header-text);
+    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
-.section4 p{
+
+.section4 p {
     width: 468px;
     color: #2B2B2B;
     font-family: "Onest", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
     margin-top: 1em;
-    }
-.line{
+}
+
+.line {
     background: #D99F4B;
     width: 86px;
     height: 5px;
     margin-top: 1em;
     border-radius: 2px;
 }
-.section4 h3{
+
+.section4 h3 {
     width: 332.455px;
     color: #2B2B2B;
     font-family: Saol Display;
     font-size: 18px;
     font-style: normal;
     font-weight: bolder;
-    line-height: 136.5%; /* 24.57px */
+    line-height: 136.5%;
+    /* 24.57px */
     text-transform: uppercase;
     margin-top: 1em;
 }
 
-.sections-5-6-container{
+.sections-5-6-container {
     background-color: #FFF;
 }
 
-.section5 h2{
+.section5 h2 {
     width: 364px;
     color: #000;
     font-family: Saol Display;
-    font-size:var(--header-text);
+    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
-    
+
 }
 
-.line2{
+.line2 {
     width: 306px;
     height: 1px;
     background-color: #D9D9D9;
     margin-top: 1em;
 }
 
-.section5 p{
+.section5 p {
     width: 405px;
     color: #6C6C6C;
     font-family: Onest;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 171.5%; /* 24.01px */
+    line-height: 171.5%;
+    /* 24.01px */
     margin-top: 1.5em;
 }
 
-.know-more{
+.know-more {
     display: flex;
     padding: 20px 40px;
     justify-content: center;
@@ -391,31 +405,35 @@
     letter-spacing: 0.81px;
     margin-top: 1.5em;
 }
-.section5-img-container img{
+
+.section5-img-container img {
     width: 85%;
-    height:auto;
+    height: auto;
     margin-top: 1em;
 }
-.section5-text-container{
+
+.section5-text-container {
     margin-top: 9em;
-   
+
 }
 
-.section6{
+.section6 {
     background-color: #FFF;
     width: 100%;
     flex-shrink: 0;
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px ,1fr));
-   padding: 5em 1em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 5em 1em;
 
 }
-.section6-text-container{
+
+.section6-text-container {
     padding-left: 5em;
     margin-top: 4em;
     align-items: center;
 }
-.section6 h2{
+
+.section6 h2 {
     width: 346px;
     color: #000;
     font-family: Saol Display;
@@ -425,55 +443,60 @@
     line-height: normal;
     text-transform: uppercase;
 }
-.section6 p{
+
+.section6 p {
     width: 440px;
     color: #6C6C6C;
-    font-family: "Onest",sans-serif;
+    font-family: "Onest", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 171.5%; /* 24.01px */
+    line-height: 171.5%;
+    /* 24.01px */
     margin-top: 2em;
 }
-.section6-img-container{
+
+.section6-img-container {
     text-align: end;
 }
-.section6-img-container img{
+
+.section6-img-container img {
     width: 85%;
-    height:auto;
+    height: auto;
     padding-right: 3em;
 }
 
-.under-layer{
+.under-layer {
     background: url(/images/Rectangle\ 16694.png);
     width: 50%;
     margin: 1% auto;
     height: 40vh;
     text-transform: uppercase;
-    position:relative;
+    position: relative;
     /* top: 22em; */
     z-index: -100;
-   
+
 
 }
-.under-layer h1{
-    
-}
-.section7{
-    background: url(/images/Frame\ 41440537.png); 
+
+.under-layer h1 {}
+
+.section7 {
+    background: url(/images/Frame\ 41440537.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width:100% ;
+    width: 100%;
     height: 100vh;
     margin-top: -20em;
-    
-   
+
+
 }
 
-.section8{
+.section8 {
     padding: 3em;
 }
-.section8 h2{
+
+.section8 h2 {
     width: 534px;
     padding-left: 2em;
     color: #000;
@@ -484,9 +507,10 @@
     line-height: normal;
     text-transform: uppercase;
 }
-.section8-img-text-container h4{
-}
-.section8-img-text-container p{
+
+.section8-img-text-container h4 {}
+
+.section8-img-text-container p {
     color: #F46918;
     font-family: "Onest", sans-serif;
     font-size: 16px;
@@ -495,19 +519,22 @@
     line-height: normal;
     padding-left: 1em;
 }
-.section8-img-text-container h6{
+
+.section8-img-text-container h6 {
     width: 426px;
     color: #000;
     font-family: Saol Display;
     /* font-size: 40px; */
     font-style: normal;
     font-weight: 400;
-    line-height: 151%; /* 60.4px */
+    line-height: 151%;
+    /* 60.4px */
     text-transform: uppercase;
     padding-left: .2em;
     margin-top: .7em;
 }
-.section8-img-text-container button{
+
+.section8-img-text-container button {
     border: none;
     background-color: none;
     color: #9B9B9B;
@@ -521,14 +548,15 @@
     margin-top: 1em;
 }
 
-.section9{
+.section9 {
     background: url(/images/WhatsApp\ Image\ 2023-09-22\ at\ 07.08\ 1\ \(1\).png);
-    width:100%;
+    width: 100%;
     height: fit-content;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.section9 h1{
+
+.section9 h1 {
     color: #FFF;
     font-family: Saol Display;
     font-size: 48px;
@@ -538,36 +566,37 @@
     text-transform: uppercase;
     margin-top: 3em;
     width: 415px;
-   
-}
-.section9 img{
 
 }
-.section9 p{
+
+.section9 img {}
+
+.section9 p {
     width: 435px;
     color: #FFF;
     font-family: Onest;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 24px */
-}
-.section9 span{
-    
+    line-height: 150%;
+    /* 24px */
 }
 
-.section10{
+.section9 span {}
+
+.section10 {
     background: url(/images/Rectangle\ 16701.png);
     background-repeat: no-repeat;
     background-size: cover;
     flex-shrink: 0;
 }
-.section10-content-area{
+
+.section10-content-area {
     padding: 5em;
     justify-content: space-around;
 }
 
-.section10 h2{
+.section10 h2 {
     color: #FFF;
     font-family: Saol Display;
     font-size: 32px;
@@ -577,30 +606,33 @@
     text-transform: uppercase;
     padding-top: 3em;
     padding-left: 2em;
-   }
+}
 
-   .section10-content-area img{
+.section10-content-area img {
     width: 90%;
     margin-top: 2em;
-    
+
 }
-.section10-content-area-container{
+
+.section10-content-area-container {
     display: flex;
     justify-content: space-between;
     border-bottom: 0.815px solid rgba(255, 255, 255, 0.24);
     margin-top: 3em;
 }
-.section10-content-area-container h1{
+
+.section10-content-area-container h1 {
     color: #FFF;
     font-family: Saol Display;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
+
 
 }
-.section10-content-area-container p{
+
+.section10-content-area-container p {
     /* margin-top: 4em; 
     */
     padding-top: 1em;
@@ -614,22 +646,24 @@
     /* padding-left: 2em; */
 }
 
-footer{
-    background:url(/images/custom-gradient-01.png);
+footer {
+    background: url(/images/custom-gradient-01.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center right;
 
-    
+
 }
-.footer-line{
+
+.footer-line {
     width: 90%;
     margin: 2% auto;
     height: 1px;
     flex-shrink: 0;
-    background: rgba(217, 217, 217, 0.13); 
+    background: rgba(217, 217, 217, 0.13);
 }
-footer h2{
+
+footer h2 {
     color: #FFF;
     font-family: Saol Display;
     font-size: 24px;
@@ -640,17 +674,20 @@ footer h2{
     text-transform: uppercase;
     width: 367px;
 }
-footer p{
+
+footer p {
     width: 414px;
     color: rgba(255, 255, 255, 0.72);
     font-family: Onest;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 160%; /* 25.6px */
+    line-height: 160%;
+    /* 25.6px */
     letter-spacing: 0.72px;
 }
-footer input{
+
+footer input {
     width: 362px;
     height: 56px;
     padding: 18px 241px 20px 29px;
@@ -659,7 +696,8 @@ footer input{
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(70px);
 }
-.susbscribe-button{
+
+.susbscribe-button {
     width: 148px;
     height: 56px;
     padding: 20px 40px;
@@ -676,24 +714,28 @@ footer input{
     line-height: normal;
     margin-left: 1em;
 }
-footer li{
-    margin-top:1em;
+
+footer li {
+    margin-top: 1em;
     color: rgba(255, 255, 255, 0.72);
     font-family:" Onest",sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 24px */
+    line-height: 150%;
+    /* 24px */
     letter-spacing: 0.72px;
     list-style-type: none;
 }
-footer .active{
+
+footer .active {
     color: #FFF;
     font-family:" Onest",sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    line-height: 150%; /* 30px */
+    line-height: 150%;
+    /* 30px */
     letter-spacing: 0.9px;
 }
 .contact-section2-content h2{
