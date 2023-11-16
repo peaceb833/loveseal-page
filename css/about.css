@@ -78,7 +78,7 @@
 }
 .about-hero-content p{
     color: #FFF;
-    font-family: Onest;
+    font-family:" Onest", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
@@ -115,11 +115,8 @@
 
 .about-section1{
     background-color: #FFF5E8;
-    /* padding: 5em 0em; */
-    height: 1650px;
+    height: fit-content;
     width: 100%; 
-
-   
 }
 .about-section1 h2{
     width: 405px;
@@ -166,7 +163,7 @@
 }
 .about-section3 span{
     color: #F46918;
-    font-family: Onest;
+    font-family: "Onest", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -175,7 +172,7 @@
 .about-section3 p{
     width: 480px;
     color: #2B2B2B;
-    font-family: Onest;
+    font-family: "Onest", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -222,6 +219,80 @@
     margin-top: 7em;
     
 }
+.about-section6 h2{
+    width: 363px;
+    color: #000;
+    font-family: Saol Display;
+    font-size: var(--header-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.about-section6 p{
+    width: 341px;
+    color: #6C6C6C;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 195%; /* 27.44px */
+}
+.about-section6-img-container{
+    width: 80%;
+    height: auto;
+}
+.about-section6-text-content{
+    margin-top: 10em;
+}
+
+.about-section7 h2{
+    width: 422px;
+    color: #000;
+    font-family: Saol Display;
+    font-size: var(--header-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.about-section7 p{
+    width: 397px;
+    color: #6C6C6C;
+    font-family: "Onest", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%; /* 24.01px */
+}
+.about-section7-text-content{
+    margin-top: 7em;
+}
+.about-section8 h2{
+    width: 254px;
+    color: #000;
+    font-family: Saol Display;
+    font-size: var(--header-text);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.about-section8 p{
+    width: 397px;
+    color: #6C6C6C;
+    font-family: "Onest", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 190%; /* 24.01px */
+}
+.about-section8-text-content{
+    margin-top: 7em;
+}
+
+
+
 .about-section9 {
     background-color: #FFF5E8;
     padding: 5em 0;
@@ -250,10 +321,18 @@
     line-height: 171.5%; /* 27.44px */
     
     }
-.about-section9-content {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
+    .about-section9-content {
+        display: flex;
+        /* justify-content: ; */
     }
+    
+    .flex-item {
+        flex: 0 0 18%; /* Adjust the width as needed */
+        margin-bottom: 10px; /* Add margin between items */
+    }
+     /* display: grid;
+        grid-template-columns: 1px 1px 1px; */
+    
 .about-section9 button{
     display: inline-flex;
     padding: 20px 40px;
@@ -262,7 +341,7 @@
     gap: 10px;
     background-color: #C32125;
     color: #FFF;
-    font-family: Onest;
+    font-family: 'Onest', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -270,3 +349,4 @@
     letter-spacing: 0.81px;
     border: none;
     }
+

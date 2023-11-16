@@ -1,0 +1,121 @@
+body{
+    background-color:#FFF5E8;
+}
+.message-section2{
+    color: #020213;
+    font-family: Saol Display;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.16px;
+}
+.message-section2-content-container h6{
+    color: #F46918;
+    font-family: "Onest",sans-serif;
+    line-height: normal;
+    letter-spacing: 0.63px;
+}
+.message-section2-content-container h2{
+    color: #0C0D28;
+    font-family: Saol Display;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    
+}
+.message-section2-content-container p{
+    color: #0C0D28;
+    font-family: Onest;
+    line-height: normal;
+    letter-spacing: 0.63px;
+}
+.message-section2-content-container span{
+    color: #971C11;
+    font-family: "Onest", sans-serif;
+    line-height: normal;
+    letter-spacing: 0.63px;
+}
+.message-section2-content-btn-container .btn1{
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    background-color: #FFF;
+    stroke-width: 1.5px;
+    stroke: #FFF;
+    border-radius: 50%;
+    border: none;
+}
+.message-section2-content-btn-container .btn2{
+     border: none;
+     background-color: inherit;
+}
+ .active{
+    width: 40.118px;
+    height: 40.118px;
+    border-radius: 5.015px;
+    opacity: 0.5;
+}
+.pagination-item{
+    width: 40.118px;
+    height: 40.118px;
+    color:rgba(66, 0, 255, 1);
+}
+.search-container input{
+    width: 400px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border-bottom: 1px solid #D9D9D9;
+    background: #FFF;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* width: 233px;
+    height: 50px;
+    flex-shrink: 0; */
+    /* text-align: center; */
+  }
+
+  /* Styling for the dropdown button */
+  .dropdown-button {
+    padding: 10px;
+    flex-shrink: 0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 233px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    background-color: #FFF;
+    color: #757575;
+    font-family:" Onest", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+  }
+  
+
+  /* Styling for the dropdown content */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Styling for the dropdown items */
+  .dropdown-item {
+    padding: 12px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+  }
+
+  /* Hover effect for dropdown items */
+  .dropdown-item:hover {
+    background-color: #ddd;}
