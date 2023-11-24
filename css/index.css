@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Saol display", sans-serif;
+    
 }
 
 :root {
@@ -18,18 +19,17 @@
     --paragraph: 16px;
 
 }
-/* home-page */
+
+/* HOME PAGE*/
 
 .howcase {
-    /* position:absolute ; */
-    /* right: 0; */
     width: 100%;
     height: 100vh;
-    /* padding: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;*/
-    background: rgba(0, 0, 0, 0.30);
+    padding: 100px;
+    /* display: flex; */
+    /* justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.30); 
     /* z-index: 2; */
 
 
@@ -59,6 +59,7 @@ nav a {
     line-height: normal;
     text-decoration: none;
 }
+
 
 .toggle {
     position: relative;
@@ -157,11 +158,6 @@ nav a {
     background-image: url(/images/texture.png);
     background-blend-mode: multiply;
     background-size: cover;
-    /* width: 100%;
-    height: 607px;
-    flex-shrink: 0;
-    padding: 5em; */
-    /* position: absolute; */
     z-index: 1000;
 
 }
@@ -173,21 +169,8 @@ nav a {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    /* margin-top: 10em; */
 }
 
-/* .section2-img-container{
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(100px ,1fr));
-    justify-content: center;
-    margin-top: 3em;
-} */
-
-/* .section2-img-container img{
-    width: 95%;
-    height: fit-content;
-    flex-shrink: 0;
-} */
 
 .section2-img-container h2 {
     color: #FFF;
@@ -258,7 +241,7 @@ nav a {
     justify-content: center;
     align-items: center;
     color: #000;
-    font-family: "Onest" sans-serif;
+    font-family: "Onest", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -277,7 +260,7 @@ nav a {
     background-color: transparent;
     border: none;
     color: #FFF;
-    font-family: Onest;
+    font-family: "Onest",sans-serif;
     font-size: 16px;
 
     font-style: normal;
@@ -444,9 +427,7 @@ nav a {
     margin-top: 2em;
 }
 
-.section6-img-container {
-    text-align: end;
-}
+
 
 .section6-img-container img {
     width: 85%;
@@ -467,18 +448,48 @@ nav a {
 
 }
 
-.under-layer h1 {}
+.under-layer h1 {
+    color: #1E1E1E;
+    font-family: Saol Display;
+    font-size: var(--header-text);
+    font-weight: 400;
+}
 
 .section7 {
-    background: url(/images/Frame\ 41440537.png);
+    background: url(/images/Frame\ 41440537\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    margin-top: -20em;
-
-
+    background-position: center center;
 }
+.text-content{
+    width: 80%;
+    margin: 2% auto;
+    background-color: #FFF3D6;
+    margin-top: -6em;
+    color: #1E1E1E;
+    }
+.content-container{
+    background-color: rgba(45, 43, 43, 0.36);
+}
+.content-container h2{
+    color: #FFF;
+    font-family: Saol Display;
+    font-style: normal;
+    line-height: normal;
+}
+.content-container p{
+    color: rgba(255, 255, 255, 0.96);
+    font-family: Onest;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 136.5%; /* 21.84px */
+}
+.content-container2 h2{
+    color: #FFF;
+    font-family: Saol Display;
+    line-height: normal;
+}
+
 
 .section8 {
     padding: 3em;
@@ -626,7 +637,7 @@ nav a {
     padding-top: 1em;
     color: #FFF;
     text-align: right;
-    font-family: Onest;
+    font-family: "Onest", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -734,9 +745,113 @@ footer .active {
     font-weight: 400;
     line-height: 26px; /* 144.444% */
 }
+@media(max-width:500px) {
+.overlay-text h2 {
+    width: 300px;
+    font-size: 20px;
+}
+.overlay-text p {
+    width: 360px;
+    height: 44px;
+    color: #FFF;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-top: 1em;
+}
+.buttons-container button {
+    padding: 11.045000000000002px 11.091000000000001px; 
+}
+.section3 h2 {
+    width: 322px;
+    font-size: 25px;
+}
+.section3 p {
+    width: 334px;
+}
+.section4 h2 {
+    width: 281px;
+    font-size: 30px;
+}
+.section4 p {
+    width: 245px;
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+}
+.section4 h3 {
+    width: 249.5px;
+    font-size: 18px;
+}
+footer h2 {
+    width: 328px;
+}
+footer p {
+    width: 333px;
+   
+    
+}
+}
+
+@media(max-width:768px) {
+
+  .howcase {
+    width: 100%;
+    height: 100vh;
+   
+
+}  
+.section3 h2 {
+    width: 397px;
+}
+.section3-text-container {
+    margin-top: 1em;
+}
+.section5-text-container {
+    margin-top: 3em;
+}
+.section5 p {
+    width: 370px;
+   
+}
+.section5-img-container img {
+    width: 95%;
+    height: auto;
+    margin-top: 1em;
+}
+.text-content{
+    width: 80%;
+    margin: 2% auto;
+    margin-top: -5.5em;
+    color: #1E1E1E;
+    }
+.section8 h2 {
+    width: 334px;
+    padding-left: 0;
+   
+    }
+
+.section9 h1 {
+   
+    font-size: 20px;
+    font-weight: 600;
+
+    }
+.section10-content-area-container h1 {
+    font-size: 15px;
+    font-weight: 600;
+    }   
+.section10-content-area-container p {
+    font-size: 10px;
+    font-weight: 400;
+   
+} 
+    
+}
 
 
-/* about-page */
+/* ABOUT SECTION */
 
 
  .about-header{
@@ -1072,7 +1187,7 @@ footer .active {
     border: none;
     }
 
-/* contact-page */
+/* CONTACT SECTION */
 
 
 header{
@@ -1258,7 +1373,7 @@ textarea{
 }
 
 
-/* message-page */
+/* MESSAGE-SECTION */
 
 .body{
     background-color:#FFF5E8;
@@ -1279,10 +1394,10 @@ textarea{
 .message-section2-content-container h2{
     color: #0C0D28;
     font-family: Saol Display;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 1.8px;
+    letter-spacing: 1.5px;
     
 }
 .message-section2-content-container p{
@@ -1298,8 +1413,8 @@ textarea{
     letter-spacing: 0.63px;
 }
 .message-section2-content-btn-container .btn1{
-    width: 88px;
-    height: 88px;
+    width: 66px;
+    height: 66px;
     flex-shrink: 0;
     background-color: #FFF;
     stroke-width: 1.5px;
@@ -1311,7 +1426,7 @@ textarea{
      border: none;
      background-color: inherit;
 }
- .active{
+ .activee{
     width: 40.118px;
     height: 40.118px;
     border-radius: 5.015px;
@@ -1381,3 +1496,19 @@ textarea{
   /* Hover effect for dropdown items */
   .dropdown-item:hover {
     background-color: #ddd;}
+    .dropdown-content{
+      display: none;
+    }
+
+
+    /* PLAY-MESSAGE SECTION */
+.play-message-section1-back-container h4{
+
+    color: #0C0D28;
+    font-family:" Onest", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
