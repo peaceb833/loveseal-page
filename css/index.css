@@ -765,12 +765,13 @@ footer .active {
     padding: 11.045000000000002px 11.091000000000001px; 
 }
 .section3 h2 {
-    width: 322px;
+    width: 319px;
     font-size: 25px;
 }
 .section3 p {
     width: 334px;
 }
+
 .section4 h2 {
     width: 281px;
     font-size: 30px;
@@ -784,26 +785,60 @@ footer .active {
     width: 249.5px;
     font-size: 18px;
 }
+
+.watch-button {
+    width: 125px;
+    height: 44px;
+}
+.know-more {
+    padding: 14px 28px;
+   
+}
+
+.section6 {
+    padding: 0em 0em;
+}
+.section6-text-container {
+    padding-left: 2em;
+}
+.section6 h2 {
+    width: 313px;
+}
+.section6 p {
+    width: 311px;
+}
+
+.section6-img-container img {
+    width: 95%;
+    height: auto;
+    margin-top: 1em;
+}
+.section8-img-text-container h6 {
+    width: 310px;
+   
+}
+.section9 p {
+    width: 363px;
+}
 footer h2 {
     width: 328px;
 }
 footer p {
-    width: 333px;
-   
+    width: 333px; 
     
 }
 }
 
 @media(max-width:768px) {
 
-  .howcase {
+    
+.howcase {
     width: 100%;
     height: 100vh;
-   
 
 }  
 .section3 h2 {
-    width: 397px;
+    width: 330px;
 }
 .section3-text-container {
     margin-top: 1em;
@@ -811,12 +846,15 @@ footer p {
 .section5-text-container {
     margin-top: 3em;
 }
+.section5 h2{
+    font-size: 26px;
+}
 .section5 p {
     width: 370px;
    
 }
 .section5-img-container img {
-    width: 95%;
+    width: 85%;
     height: auto;
     margin-top: 1em;
 }
