@@ -75,7 +75,7 @@
         font-size: 1.09rem;
     }
     .navbars .mobileNavMenu{
-        width: 70%;
+        width: 80%;
         height: 100vh;
         background-color: #05052E;
         display: block;
@@ -84,14 +84,14 @@
         top: 0;
         color: white;
         padding: 0;
-        margin: 0;
+        /* margin: 0; */
         z-index: 999;
         transform: translateX(-200%);
         transition: 1.5s;
        
     }
     .open{
-        transform: translateX(0%) !important;
+        transform: translateX(5%) !important;
     }
     .navbars .mobileNavMenu .mobileNavbarLists{
         width: 100%;
@@ -199,7 +199,6 @@
     height: auto;
     color: #FFF;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -212,7 +211,6 @@
     height: 44px;
     color: #FFF;
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -250,7 +248,6 @@
     gap: 8.523px;
     color: #FFF;
     font-family: "Onest", sans-serif;
-    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -270,7 +267,6 @@
 .section2 h3 {
     color: #FFF;
     font-family: " Onest" sans-serif;
-    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -280,7 +276,6 @@
 .section2-img-container h2 {
     color: #FFF;
     font-family: 'Saol Display' sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 135.49%;
@@ -288,7 +283,6 @@
     text-transform: uppercase;
     color: rgba(255, 255, 255, 1);
     margin-top: -5em;
-    width: 224px;
     padding-left: 1em;
 }
 
@@ -314,7 +308,6 @@
     width: 322px;
     color: #FFF;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -325,7 +318,6 @@
     width: 404px;
     color: #ffffffb4;
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 143.5%;
@@ -347,7 +339,6 @@
     align-items: center;
     color: #000;
     font-family: "Onest", sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -366,7 +357,6 @@
     border: none;
     color: #FFF;
     font-family: "Onest",sans-serif;
-    font-size: 16px;
 
     font-style: normal;
     font-weight: 400;
@@ -379,17 +369,10 @@
 
 }
 
-.section4-text-container {
-    margin-top: 5em;
-    padding-left: 5em;
-
-}
-
 .section4 h2 {
     width: 299px;
     color: #000;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -400,7 +383,6 @@
     width: 468px;
     color: #2B2B2B;
     font-family: "Onest", sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
@@ -420,7 +402,6 @@
     width: 332.455px;
     color: #2B2B2B;
     font-family: Saol Display;
-    font-size: 18px;
     font-style: normal;
     font-weight: bolder;
     line-height: 136.5%;
@@ -434,10 +415,9 @@
 }
 
 .section5 h2 {
-    width: 364px;
+   
     color: #000;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -453,10 +433,8 @@
 }
 
 .section5 p {
-    width: 405px;
     color: #6C6C6C;
     font-family: Onest;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 171.5%;
@@ -474,7 +452,6 @@
     border: none;
     color: #FFF;
     font-family: "Onest", sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -513,7 +490,6 @@
     width: 346px;
     color: #000;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -524,7 +500,6 @@
     width: 440px;
     color: #6C6C6C;
     font-family: "Onest", sans-serif;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 171.5%;
@@ -556,7 +531,6 @@
 .under-layer h1 {
     color: #1E1E1E;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-weight: 400;
 }
 
@@ -585,7 +559,6 @@
 .content-container p{
     color: rgba(255, 255, 255, 0.96);
     font-family: Onest;
-    font-size: 16px;
     font-weight: 500;
     line-height: 136.5%; /* 21.84px */
 }
@@ -605,7 +578,6 @@
     padding-left: 2em;
     color: #000;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -617,7 +589,6 @@
 .section8-img-text-container p {
     color: #F46918;
     font-family: "Onest", sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -628,7 +599,6 @@
     width: 426px;
     color: #000;
     font-family: Saol Display;
-    /* font-size: 40px; */
     font-style: normal;
     font-weight: 400;
     line-height: 151%;
@@ -643,7 +613,6 @@
     background-color: none;
     color: #9B9B9B;
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -663,7 +632,6 @@
 .section9 h1 {
     color: #FFF;
     font-family: Saol Display;
-    font-size: 48px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -679,7 +647,6 @@
     width: 435px;
     color: #FFF;
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
@@ -703,7 +670,6 @@
 .section10 h2 {
     color: #FFF;
     font-family: Saol Display;
-    font-size: 32px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -728,7 +694,6 @@
 .section10-content-area-container h1 {
     color: #FFF;
     font-family: Saol Display;
-    font-size: 30px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -743,7 +708,6 @@
     color: #FFF;
     text-align: right;
     font-family: "Onest", sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -811,7 +775,6 @@ footer input {
     background: #C32125;
     color: #FFF;
     font-family: "Onest",sans-serif;
-    font-size: 16px;
     border: none;
     font-style: normal;
     font-weight: 300;
@@ -823,7 +786,6 @@ footer li {
     margin-top: 1em;
     color: rgba(255, 255, 255, 0.72);
     font-family:" Onest",sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 300;
     line-height: 150%;
@@ -835,7 +797,6 @@ footer li {
 footer .active {
     color: #FFF;
     font-family:" Onest",sans-serif;
-    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
@@ -845,7 +806,6 @@ footer .active {
 .contact-section2-content h2{
     color: var(--Grey-3, #5C5C5C);
     font-family: "Onest", sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
@@ -858,14 +818,12 @@ footer .active {
 }
 .overlay-text h2 {
     width: 300px;
-    font-size: 20px;
 }
 .overlay-text p {
     width: 360px;
     height: 44px;
     color: #FFF;
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
@@ -876,7 +834,6 @@ footer .active {
 }
 .section3 h2 {
     width: 319px;
-    font-size: 25px;
 }
 .section3 p {
     width: 334px;
@@ -884,16 +841,13 @@ footer .active {
 
 .section4 h2 {
     width: 281px;
-    font-size: 30px;
 }
 .section4 p {
     width: 245px;
     font-family: "Onest", sans-serif;
-    font-size: 16px;
 }
 .section4 h3 {
     width: 249.5px;
-    font-size: 18px;
 }
 
 .watch-button {
@@ -928,7 +882,7 @@ footer .active {
    
 }
 .section9 p {
-    width: 363px;
+    width: 340px;
 }
 .section10 h2 {
     font-size: 25px;   
@@ -963,7 +917,6 @@ footer p {
     font-size: 26px;
 }
 .section5 p {
-    width: 370px;
    
 }
 .section5-img-container img {
