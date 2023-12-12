@@ -19,6 +19,115 @@
     --paragraph: 16px;
 
 }
+/* NAVBAR */
+.navbars{
+    padding: 0 6rem;
+    width: 100%;
+    height: 6.81rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbarlists{
+    width:100%;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    
+}
+.navbars .burger-menu{
+    display: none;
+}
+.navbarlists a{
+    
+    color: #423971;
+    
+}
+/* Note: backdrop-filter has minimal browser support */
+.navbars .mobileNavMenu{
+    display: none;
+    
+}
+@media (max-width:780px) {
+    
+    .navbars{
+        padding: 0 1.38rem;
+        width: 100%;
+        height: 6.81rem;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    } 
+    /* .smflx-logo img{
+        width: 8.95rem;
+        height: 3.29rem;
+    }*/
+
+    .navbars .navbarlists{
+        display: none;
+     } 
+    .navbars .burger-menu{
+        display: block; 
+    }
+    .navbars .burger-menu .bar{
+        font-size: 1.09rem;
+    }
+    .navbars .mobileNavMenu{
+        width: 70%;
+        height: 100vh;
+        background-color: #05052E;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: white;
+        padding: 0;
+        margin: 0;
+        z-index: 999;
+        transform: translateX(-200%);
+        transition: 1.5s;
+       
+    }
+    .open{
+        transform: translateX(0%) !important;
+    }
+    .navbars .mobileNavMenu .mobileNavbarLists{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* margin: 5rem; */
+        align-items: center;
+        list-style-type: none;
+        
+       
+    }
+    /* .navbar .mobileNavMenu .mobileNavbarList a{
+        color: 20rem;
+    } */
+    .navbars .mobileNavMenu a{
+        color: white;
+        font-size: .8rem;
+        font-weight: 700;
+    }
+    .navbars .mobileNavMenu .close{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding: 0 4rem ;
+       
+    }
+    .navbars .mobileNavMenu .close img{
+        font-size: 1.29rem;
+        font-family: 500;
+    }
+}
+
 
 /* HOME PAGE*/
 
@@ -47,17 +156,13 @@
     justify-content: space-between;
 }
 
-
-nav ul,
-nav li,
-nav a {
-    color: #FFF;
-    font-family: "onest", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.showcase .navbarlists a{
+    
+    color:white;
     text-decoration: none;
+    font-size: .8rem;
+    
+    
 }
 
 
@@ -564,7 +669,7 @@ nav a {
     line-height: normal;
     text-transform: uppercase;
     margin-top: 3em;
-    width: 415px;
+    
 
 }
 
@@ -746,6 +851,11 @@ footer .active {
     line-height: 26px; /* 144.444% */
 }
 @media(max-width:500px) {
+.container-for-link{
+    width: 100%;
+    height: 100vh;
+    background: #9c6161;
+}
 .overlay-text h2 {
     width: 300px;
     font-size: 20px;
@@ -820,6 +930,9 @@ footer .active {
 .section9 p {
     width: 363px;
 }
+.section10 h2 {
+    font-size: 25px;   
+}
 footer h2 {
     width: 328px;
 }
@@ -885,13 +998,19 @@ footer p {
     font-weight: 400;
    
 } 
+
+
     
 }
 
 
 /* ABOUT SECTION */
 
-
+.about-header .navbarlists a{
+        color:white;
+        text-decoration: none;
+        font-size: .8rem; 
+}
  .about-header{
     background-color: #0C0D28;;
     width: 100%;
@@ -937,7 +1056,6 @@ footer p {
 .about-hero-content h2{
     color: #FFF;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -964,12 +1082,10 @@ footer p {
    
 }
 .about-hero-content2 h2{
-    width: 419px;
     margin: 0% auto;
     color: #FFF;
     text-align: center;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -977,12 +1093,10 @@ footer p {
     
 }
 .about-hero-content2 p{
-    width: 415px;
     margin: 0% auto;
     color: #FFF;
     text-align: center;
     font-family:" Onest", sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 300;
     line-height: 180.5%; /* 32.49px */
@@ -991,13 +1105,11 @@ footer p {
 .about-section1{
     background-color: #FFF5E8;
     height: fit-content;
-    width: 100%; 
+    width: 100%;
 }
 .about-section1 h2{
-    width: 405px;
     color: #020213;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 0px */
@@ -1005,10 +1117,8 @@ footer p {
     
 }
 .about-section2 p{
-    width: 564px;
     color: #2B2B2B;
     font-family:" Onest"sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 199%; /* 37.08px */
@@ -1021,10 +1131,8 @@ footer p {
     margin-top: 7em;
 }
 .about-section3 h2{
-    width: 404px;
     color: #000;
     font-family: Saol Display;
-    font-size:var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 0px */
@@ -1039,16 +1147,13 @@ footer p {
 .about-section3 span{
     color: #F46918;
     font-family: "Onest", sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: 171.5%; /* 30.87px */
 }
 .about-section3 p{
-    width: 480px;
     color: #2B2B2B;
     font-family: "Onest", sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 206%; /* 37.08px */
@@ -1060,32 +1165,26 @@ footer p {
 
 }
 .about-section5 h1{
-    width: 778px;
     margin: 0% auto;
     color: #000;
     text-align: center;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
 .about-section5 h2{
-    width: 459px;
     color: #000;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
 .about-section5 p{
-    width: 421px;
     color: #6C6C6C;
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 171.5%; /* 27.44px */
@@ -1095,20 +1194,16 @@ footer p {
     
 }
 .about-section6 h2{
-    width: 363px;
     color: #000;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
 .about-section6 p{
-    width: 341px;
     color: #6C6C6C;
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 195%; /* 27.44px */
@@ -1122,20 +1217,16 @@ footer p {
 }
 
 .about-section7 h2{
-    width: 422px;
     color: #000;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
 .about-section7 p{
-    width: 397px;
     color: #6C6C6C;
     font-family: "Onest", sans-serif;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 190%; /* 24.01px */
@@ -1144,20 +1235,16 @@ footer p {
     margin-top: 7em;
 }
 .about-section8 h2{
-    width: 254px;
     color: #000;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
 }
 .about-section8 p{
-    width: 397px;
     color: #6C6C6C;
     font-family: "Onest", sans-serif;
-    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 190%; /* 24.01px */
@@ -1173,24 +1260,20 @@ footer p {
     padding: 5em 0;
 }
 .about-section9 h1{
-    width: 981px;
     margin: 1% auto;
     color: #000;
     text-align: center;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
     }
 .about-section9 p{
-    width: 660px;
     margin: 1% auto;
     color: #6C6C6C;
     text-align: center;
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 171.5%; /* 27.44px */
@@ -1202,7 +1285,6 @@ footer p {
     }
     
     .flex-item {
-        flex: 0 0 18%; /* Adjust the width as needed */
         margin-bottom: 10px; /* Add margin between items */
     }
      /* display: grid;
@@ -1217,19 +1299,39 @@ footer p {
     background-color: #C32125;
     color: #FFF;
     font-family: 'Onest', sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.81px;
     border: none;
     }
-
+@media(max-width:768px) {
+    .about-hero-content h2{
+        color: #FFF;
+        font-family: Saol Display;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-left: 0em;
+        margin-top: 2em;
+    }
+    .under-line2{
+        width: 150px;
+        height: 1px;
+        background-color: #D9D9D9;        
+    }
+    .about-header {
+        background-color: #0C0D28;
+        width: 100%;
+        height: fit-content;
+        padding: 2px 20px
+}}
 /* CONTACT SECTION */
 
 
 header{
-    background-color: white;
+    /* background-color: white; */
     width: 100%;
     height: fit-content;
     padding: 40px 100px;   
@@ -1266,7 +1368,6 @@ header{
 .header-text h2{
     color: #0C0D28;
     font-family: Saol Display;
-    font-size: 50px;
     font-style: normal;
     font-weight: 400;
     line-height: 129%; /* 72.24px */
@@ -1281,6 +1382,8 @@ header{
     line-height: 26px; 
     text-align: center;/* 162.5% */
 }
+
+
 .contact-section1-content-container{
     margin-top: 5em;
 }
@@ -1296,17 +1399,14 @@ header{
 .contact-section1 h1{
     color: #FFF;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: 129%; /* 61.92px */
     text-transform: capitalize;
 }
 .contact-section1 p{
-    width: 386px;
     color: rgba(255, 255, 255, 0.63);
     font-family:" Onest",sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
@@ -1316,7 +1416,6 @@ header{
 form label{
     color: #FFF;
     font-family:" Onest",sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
@@ -1332,7 +1431,6 @@ form input{
     border: none; 
     color: #AEABAB;
     font-family:" Onest",sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1343,7 +1441,6 @@ textarea{
     border: none;
     color: #AEABAB;
     font-family:" Onest",sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1360,11 +1457,10 @@ textarea{
     flex-shrink: 0;
     color: #FFF;
     font-family: "Onest", sans-serif;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    background: #C32125;
+    background: hsl(359, 71%, 45%);
     border: none;
 }
 .contact-section2{
@@ -1379,17 +1475,14 @@ textarea{
 .contact-section2-content-container h1{
     color: #0C0D28;
     font-family: Saol Display;
-    font-size: var(--header-text);
     font-style: normal;
     font-weight: 400;
     line-height: 129%; /* 61.92px */
     text-transform: capitalize;
 }
 .contact-section2-content-container p{
-    width: 327px;
     color: var(--Grey-3, #5C5C5C);
     font-family: Onest;
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
@@ -1404,17 +1497,29 @@ textarea{
 .contact-section2-content p{
     color: var(--Grey-3, #5C5C5C);
     font-family: Onest;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 144.444% */
 }
+@media(max-width:500px) {
+.contact-img{
+    width: 40%;}
+.contact-img2{
+    width: 100%;
+}
 
+}
 
 /* MESSAGE-SECTION */
 
 .body{
     background-color:#FFF5E8;
+}
+.body .navbarlists a{
+    color: rgba(12, 13, 40, 1);
+    text-decoration: none;
+    font-size: .8rem;
+    font-family:"Onest",sans-serif;
 }
 .message-section2{
     color: #020213;
@@ -1432,7 +1537,6 @@ textarea{
 .message-section2-content-container h2{
     color: #0C0D28;
     font-family: Saol Display;
-    font-size: 30px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.5px;
@@ -1508,7 +1612,6 @@ textarea{
     background-color: #FFF;
     color: #757575;
     font-family:" Onest", sans-serif;
-    font-size: 16px;
     font-weight: 400;
     letter-spacing: 0.72px;
   }
@@ -1538,13 +1641,26 @@ textarea{
       display: none;
     }
 
+@media(max-width:500px)  {
+    
+}
 
+@media(max-width:1024px)  {
+    .search-container input {
+        width: 300px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        border-bottom: 1px solid #D9D9D9;
+        background: #FFF;
+        border: none;
+    }
+}
     /* PLAY-MESSAGE SECTION */
 .play-message-section1-back-container h4{
 
     color: #0C0D28;
     font-family:" Onest", sans-serif;
-    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;

@@ -9,74 +9,105 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/index.css">
     <title>about page</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
 </head>
 <body>
-    <header class="about-header w-100">
-       <nav class="navbar pt-4 px-0 navbar-expand-lg bg-transparent bg-light" style="height: fit-content;">
-                        <div class="container-fluid  px-0">
-                            <div class="row justify-content-between mx-0 w-100">
-                                <a class="navbar-brand col-auto" href="/"><img src="/images/loveseal-logo.png" alt=""></a>
-                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                                <div class="collapse ms-auto col-auto navbar-collapse" style="max-width: fit-content !important;" id="navbarNavDropdown">
-                                    <ul class="navbar-nav">
-                                        <li class="nav-item">
-                                        <a class="" aria-current="page" href="#">About us</a>
-                                        </li>
-                                        <li class="nav-item ms-5">
-                                        <a class="" href="#">Events</a>
-                                        </li>
-                                        <li class="nav-item ms-5">
-                                        <a class="" href="#">Live stream</a>
-                                        </li>
-                                        <li class="nav-item dropdown ms-5">
-                                        <a class=" dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Media & Resources
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Messages</a></li>
-                                            <li><a class="dropdown-item" href="#">Transcript</a></li>
-                                        </ul>
-                                        </li>
-                                        <li class="nav-item ms-5">
-                                            <a class="" href="#">Contact Us</a>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
+    <header class="about-header ">
+        <nav class="navbars navbar pt-4 px-2 navbar-expand-lg bg-transparent bg-light" style="height: fit-content;">
+            <div class="smflx-logo-holder ps-md-5 ps-lg-5">
+                <a href="#">
+                    <img src="/images/loveseal-logo.png" alt="" class="w-100" />
+                </a>
+            </div>
+            <ul class="navbarlists pe-md-5 pe-lg-5" >
+                <li class="nav-item  ">
+                <a class="mobileNavbarLists" aria-current="page" href="about.html">About us</a>
+                </li>
+                <li class="nav-item ms-5">
+                <a class="mobileNavbarLists" href="#">Events</a>
+                </li>
+                <li class="nav-item ms-5">
+                <a class="mobileNavbarLists" href="#">Live stream</a>
+                </li>
+                 <li class="nav-item dropdown ms-5">
+                <a class=" dropdown-toggle mobileNavbarLists" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Media & Resources
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="message.html">Messages</a></li>
+                    <li><a class="dropdown-item" href="#">Transcript</a></li>
+                </ul>
+                </li>
+                <li class="nav-item ms-5">
+                    <a class="mobileNavbarLists" href="#">Contact Us</a></li>
+            </ul>
+             <div class="burger-menu">
+                <img src="/images/menu.png" alt="">            </div>
+             <div class="mobileNavMenu">
+                <div class="close mt-2 mb-5">
+                    <span class="span">
+                        <i class="fa fa-close" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <ul class="mobileNavbarLists ">
+                    <li class="nav-item">
+                        <a class="mobileList mt-5" aria-current="page" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item ms-0 ms-md-5 ms-lg-5">
+                        <a class="mobileList mt-2" href="#">Events</a>
+                    </li>
+                    <li class="nav-item ms-0 ms-md-5 ms-lg-5">
+                        <a class="mobileList mt-2" href="#">Live stream</a>
+                    </li>
+                    <li class="nav-item dropdown ms-0 ms-md-5 ms-lg-5">
+                        <a class=" dropdown-toggle mobileList mt-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Media & Resources
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="message.html">Messages</a></li>
+                            <li><a class="dropdown-item" href="#">Transcript</a></li>
+                        </ul></li>
+                    </li>
+                    <li class="nav-item ms-0 ms-md-5 ms-lg-5 mt-2">
+                        <a class="mobileList" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div> 
+        </nav>
 
         <!-- WE ARE LOVESEAL CHURCH -->
         <div class="about-hero-content row mt-5">
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-6">
                 <img src="/images/abt-hero-img.png" alt="" class="img-fluid">
             </div>
-            <div class="col">
-                <h2>WE ARE LOVESEAL CHURCH</h2>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2 class="h3">WE ARE LOVESEAL CHURCH</h2>
                 <div class="under-line mt-5"></div>
                 <p class="text-lowercase mt-5">We are a priestly house characterized by the revealed knowledge and understanding of Jesus Christ. Our disposition is that of constant 
                     experience and expression of the redeeming love of Christ.<br><br>
                     We are a priestly house characterized by the revealed knowledge and understanding of Jesus Christ. Our disposition is that of constant experience and expression of the redeeming love of Christ.
                 </p>
-                <img src="/images/image-10.png" alt="" class="img-fluid">
+                <div class="text-end text-md-center text-lg-center"><img src="/images/image-10.png" alt="" class="w-50  "></div>
             </div>
         </div>
 
         <!-- UNTO CONFORMING TO HIS IMAGE & LIKENESS -->
         <div class="about-hero-content2 row mt-5 pt-5">
-            <div class="col mt-5">
+            <div class="col-12 col-md-6 col-lg-6 mt-5">
                 <h2>UNTO CONFORMING TO HIS IMAGE & LIKENESS</h2>
                 <p class="mt-3">At LoveSeal Church, we are commissioned to obey the first and great commandment, which is to love the Lord our God with all 
                     our heart, soul, and mind (Matthew 22:37-38).</p>
             </div>
-            <div class="col">
+            <div class="col-12 col-md-6 col-lg-6">
                 <img src="/images/p-femi-with-2-brethen (1).png" alt="" class="img-fluid">
             </div>
         </div>
     </header>
 
-    <section class="about-section1 container-fluid">
+    <!-- <section class="about-section1 container-fluid">
         <div class="row">
             <div class="col p-0">
                 <img src="/images/sis-odinaka-and-brother.png" alt="" class="img-fluid">
@@ -87,7 +118,7 @@
                 <h2 class="">We are a church built on discipleship and inheritance</h2>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- <section class="about-section2">
         <div class="row">
@@ -110,7 +141,7 @@
     </section> -->
 
     <!-- MEET OUR  lively TEENS & KIDDIES -->
-    <section class="about-section3 p-5 mt-4">
+    <!-- <section class="about-section3 p-5 mt-4">
         <div class="row">
             <div class="col">
                 <img src="/images/img-of-lively-kiddies.png" alt="" class="img-fluid">
@@ -126,10 +157,10 @@
                     but our children are being immuned to the evil of the coming days.</p>
             </div>
         </div>  
-    </section>
+    </section> -->
 
     <!-- Experience a genuine and sincere fellowship with God -->
-    <section class="about-section5 container-fluid ">
+    <!-- <section class="about-section5 container-fluid ">
         <h1 class="text-uppercase">Experience a genuine and sincere fellowship with God</h1>
         <div class="row p-5">
             <div class="col about-section5-text-content ms-5">
@@ -144,7 +175,7 @@
                      <img src="/images/img-of-brothers (2).png" alt="" class="img-fluid">      
                 </div>
             </div>
-        </section> 
+        </section>  -->
 
          <!-- Engaging word and Doctrine -->
          <!-- <section class=" about-section6 container-fluid mb-5 p-5  ">
@@ -164,7 +195,7 @@
 
         <!-- Consistency in Fervent Prayers -->
 
-        <!-- <section class=" about-section7 container-fluid  p-5 ">
+        <section class=" about-section7 container-fluid  p-5 ">
             <div class="row">
             <div class="col about-section7-text-content ms-5">
                 <h2 class="text-upercase">Consistency in Fervent Prayers</h2>
@@ -179,12 +210,12 @@
                 <img src="/images/img-of-sis-tobi.png" alt="" class="img-fluid ">
             </div>
             </div>
-        </section> -->
+        </section>
         <!-- strong atmosphere of worship -->
-        <!-- <section class=" about-section8 container-fluid mt-5 p-5 ">
+        <section class=" about-section8 container-fluid mt-5 p-5 ">
             <div class="row">
-                <div class="col  about-section8-img-container me-5">
-                    <img src="/images/img-of-sis-tobi.png" alt="" class="img-fluid ">
+                <div class="col about-section8-img-container me-5">
+                    <img src="/images/img-of-sis-tobi.png" alt="" class="img-fluid">
                 </div>
             <div class="col about-section8-text-content ms-5">
                 <h2 class="text-upercase">strong atmosphere of worship</h2>
@@ -196,7 +227,7 @@
             </div> 
             </div>
         </section>
-        A JOURNEY UNTO GOD -->
+        <!-- A JOURNEY UNTO GOD -->
          <!-- <section class="about-section9 container-fluid">
          <h1 class="text-uppercase">A journey unto god</h1>
             <p>A journey unto god At LoveSeal Church, we have an unrelenting desire to live by the word of God. This way we move from faith to faith doing faith, hope and charity, till we attain  Everlasting Life till we get to the Everlasting and Only True God. Come and Join us 
@@ -250,53 +281,53 @@
                 </div>
             </div>
         </section> 
-
-       <footer class="p-3">
-        <div class=" d-flex justify-content-around">
-            <div class="container mt-3 ">
-                <img src="/images/loveseal-logo.png" alt="">
+        <footer class="p-0 p-md-3 p-lg-3 ">
+            <div class=" d-flex justify-content-around">
+                <div class="container mt-3 ">
+                    <img src="/images/loveseal-logo.png" alt="">
+                </div>
+                <div class="mt-3">
+                    <img src="/images/Twitter.svg" class="w-25" alt="">
+                    <img src="/images/Facebook.svg" class="w-25" alt="">
+                    <img src="/images/Twitter (1).svg" class="w-25" alt="">
+                </div>
             </div>
-            <div class="mt-3">
-                <img src="/images/Twitter.svg" class="w-25" alt="">
-                <img src="/images/Facebook.svg" class="w-25" alt="">
-                <img src="/images/Twitter (1).svg" class="w-25" alt="">
+            <div class="footer-line">
             </div>
-        </div>
-        <div class="footer-line">
-        </div>
-    
-        <div class="container row mx-auto mt-5 p-3">
-            <div class="col-6 col-md-6 col-lg-6">
-               <h2>STAY IN TOUCH WITH LOVESEAL</h2>
-               <p>Enter your email address to be the first to know
-                 about our upcoming conferences and meetings</p>
-                 <div class="d-flex">
-                 <form action="">
-                    <input type="email">
-                 </form>
-                 <div><button class="susbscribe-button">Subscribe</button></div>
-                 </div>
-            </div>
-            <div  class="col-6 col-md-6 col-lg-6 d-block d-md-flex d-lg-flex justify-content-end ">
-                <ul>
-                    <li class="active">Quick Links</li>
-                    <li>About Us</li>
-                    <li>Events</li>
-                    <li>For Youngsters</li>
-                    <li>Give Online</li>
-                </ul>
-            <div class="ms-5">
-                <ul>
-                    <li class="active">Media & Resources</li>
-                    <li>Messages</li>
-                    <li>Devotionals</li>
-                    <li>Supernatural Clinic Manual </li>
-                    <li>Photo Gallery</li>
-                </ul>
-            </div>
-            </div>
-        </div> 
-     </footer>
+        
+            <div class="container row mx-auto mt-5 p-3">
+                <div class="col">
+                   <h2>STAY IN TOUCH WITH LOVESEAL</h2>
+                   <p>Enter your email address to be the first to know
+                     about our upcoming conferences and meetings</p>
+                     <div class="d-flex">
+                     <form action="">
+                        <input type="email">
+                     </form>
+                     <div><button class="susbscribe-button">Subscribe</button></div>
+                     </div>
+                </div>
+                <div  class="col d-block d-md-flex d-lg-flex justify-content-end ">
+                    <ul>
+                        <li class="active">Quick Links</li>
+                        <li>About Us</li>
+                        <li>Events</li>
+                        <li>For Youngsters</li>
+                        <li>Give Online</li>
+                    </ul>
+                <div class="col ms-md-5 ms-lg-5">
+                    <ul>
+                        <li class="active">Media & Resources</li>
+                        <li>Messages</li>
+                        <li>Devotionals</li>
+                        <li>Supernatural Clinic Manual </li>
+                        <li>Photo Gallery</li>
+                    </ul>
+                </div>
+                </div>
+            </div> 
+         </footer>
+        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="/js/index.js"></script>
   </body>
