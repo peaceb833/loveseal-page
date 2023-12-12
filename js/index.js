@@ -13,19 +13,14 @@ closeEl.addEventListener('click', () => {
 
 
 function toggleDropdown() {
-  var dropdownContent = document.querySelectorAll(".dropdown-content");
-  dropdownContent.forEach(n=> {
-  if (n.style.display === "block") {
-    n.style.display = "none";
+  var dropdownContent = document.getElementById("dropdownContent");
+  
+  if (dropdownContent.style.display === "block") {
+    dropdownContent.style.display = "none";
   } else {
-    n.style.display = "block";
+    dropdownContent.style.display = "block";
   }
-  // n.onclick=()=>{
-  //   n.classList.toggle('display')
-  // }
-});
 }
-
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
@@ -35,4 +30,5 @@ window.onclick = function(event) {
       dropdownContent.style.display = "none";
     }
   }
-}
+};
+
