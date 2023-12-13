@@ -112,6 +112,7 @@
         color: white;
         font-size: .8rem;
         font-weight: 700;
+        text-decoration: none;
     }
     .navbars .mobileNavMenu .close{
         width: 100%;
