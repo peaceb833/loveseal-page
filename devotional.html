@@ -4,124 +4,129 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-     <!-- <link rel="stylesheet" href="/css/about.css"> -->
-    <link rel="stylesheet" href="/css/index.css"> 
-    <!-- <link rel="stylesheet" href="css/contact.css"> -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous"
     referrerpolicy="no-referrer">
-    <title>Devotional page</title>
+    <title>devotional page</title>
   </head>
-  <body class="">
-        <nav class="navbars navbar pt-4 px-2 navbar-expand-lg bg-transparent bg-light" style="height: fit-content;">
-            <div class="smflx-logo-holder ps-md-5 ps-lg-5">
-                        <a href="#">
-                            <img src="/images/loveseal-logo2.png" alt="" class="w-100" />
-                            </a>
-                           </div>
-                    <ul class="navbarlists pe-md-5 pe-lg-5" >
-                        <li class="nav-item  ">
-                        <a class="mobileNavbarLists" aria-current="page" href="about.html">About us</a>
-                        </li>
-                        <li class="nav-item ms-5">
-                        <a class="mobileNavbarLists" href="#">Events</a>
-                        </li>
-                        <li class="nav-item ms-5">
-                        <a class="mobileNavbarLists" href="#">Live stream</a>
-                        </li>
-                            <li class="nav-item dropdown ms-5">
-                        <a class=" dropdown-toggle mobileNavbarLists" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Media & Resources
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="message.html">Messages</a></li>
-                            <li><a class="dropdown-item" href="#">Transcript</a></li>
-                        </ul>
-                        </li>
-                        <li class="nav-item ms-5">
-                            <a class="mobileNavbarLists" href="#">Contact Us</a></li>
-                    </ul>
-                     <div class="burger-menu pe-3 pe-md-0 pe-lg-0">
-                       <img src="/images/menu (1).png" alt="">
-                    </div>
-                     <div class="mobileNavMenu">
-                        <div class="close mt-2 mb-5">
-                            <span class="span">
-                                <i class="fa fa-close" aria-hidden="true"></i>
-                            </span>
-                        </div>
-                        <ul class="mobileNavbarLists ">
-                            <li class="nav-item">
-                                <a class="mobileList mt-5" aria-current="page" href="about.html">About us</a>
-                            </li>
-                            <li class="nav-item ms-0 ms-md-5 ms-lg-5">
-                                <a class="mobileList mt-2" href="#">Events</a>
-                            </li>
-                            <li class="nav-item ms-0 ms-md-5 ms-lg-5">
-                                <a class="mobileList mt-2" href="#">Live stream</a>
-                            </li>
-                            <li class="nav-item dropdown ms-0 ms-md-5 ms-lg-5">
-                                <a class=" dropdown-toggle mobileList mt-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Media & Resources
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="message.html">Messages</a></li>
-                                    <li><a class="dropdown-item" href="#">Transcript</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item ms-0 ms-md-5 ms-lg-5 mt-2">
-                                <a class="mobileList" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div> 
-                </nav>
-             <section class="">
-                <div class="header-section1 mx-5 pe-5 position-absolute " style="width:70%; height: 100vh; background-size:cover;"></div>
-                <div class="header-section1 mx-5 " style="width: 70%; height: 100vh; background-size:cover;"></div>
-         </section>         
-    </header>
-    <section class="container-fluid">
-        <div class="filter-section row mt-1 mt-md-3 mt-lg-3 mb-5">
-          <div class="search-container col-6 col-md-4 col-lg-3 mx-5 d-flex ">
-            <i class="fa fa-search position-absolute mt-3 ps-1 pe-3" aria-hidden="true"></i>
-            <input type="text" class="ps-4" placeholder="Search message"></div>
-          
-          <div class="dropdown  ms-5 mt-3 mt-md-0 mt-lg-0 col-6 col-md-4 col-lg-3">
-            <!-- Dropdown button -->
-            <button class="dropdown-button text-start d-flex justify-content-between" onclick="toggleDropdown()"><p>Minister</p><div><img src="/images/Frame (1).png" alt=""></div></button>
-          
-            <!-- Dropdown content -->
-            <div class="dropdown-content  mx-1" id="dropdownContent" style="width:70%">
-              <!-- Dropdown items -->
-              <a href="#" class="dropdown-item">Option 1</a>
-              <a href="#" class="dropdown-item">Option 2</a>
-              <a href="#" class="dropdown-item">Option 3</a>
-            </div>
+  <body class="body">
+    <nav class="navbars navbar pt-4 px-2 navbar-expand-lg bg-transparent bg-light" style="height: fit-content;">
+      <div class="smflx-logo-holder ps-md-5 ps-lg-5">
+          <a href="#">
+              <img src="/images/loveseal-logo2.png" alt="" class="w-100" />
+              </a>
+             </div>
+      <ul class="navbarlists pe-md-5 pe-lg-5" >
+          <li class="nav-item  ">
+          <a class="mobileNavbarLists" aria-current="page" href="about.html">About us</a>
+          </li>
+          <li class="nav-item ms-5">
+          <a class="mobileNavbarLists" href="#">Events</a>
+          </li>
+          <li class="nav-item ms-5">
+          <a class="mobileNavbarLists" href="#">Live stream</a>
+          </li>
+           <li class="nav-item dropdown ms-5">
+          <a class=" dropdown-toggle mobileNavbarLists" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Media & Resources
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="message.html">Messages</a></li>
+              <li><a class="dropdown-item" href="#">Transcript</a></li>
+          </ul>
+          </li>
+          <li class="nav-item ms-5">
+              <a class="mobileNavbarLists" href="#">Contact Us</a></li>
+      </ul>
+       <div class="burger-menu pe-3 pe-md-0 pe-lg-0">
+         <img src="/images/menu (1).png" alt="">
+      </div>
+       <div class="mobileNavMenu">
+          <div class="close mt-2 mb-5">
+              <span class="span">
+                  <i class="fa fa-close" aria-hidden="true"></i>
+              </span>
           </div>
-          
-  
-          <div class="dropdown  ms-md-2 ms-lg-2 mt-3 mt-md-0 mt-lg-0 col-6 col-md-4 col-lg-3 ">
-            <!-- Dropdown button -->
-            <button class="dropdown-button text-start d-flex justify-content-between"  onclick="toggleDropdown()"><p>Category</p><div><img src="/images/Frame (1).png" alt=""></div></button>
-          
-            <!-- Dropdown content -->
-            <div class="dropdown-content " id="dropdownContent" style="width:70%">
-              <!-- Dropdown items -->
-              <a href="#" class="dropdown-item">Option 1</a>
-              <a href="#" class="dropdown-item">Option 2</a>
-              <a href="#" class="dropdown-item">Option 3</a>
-            </div>
-          </div>
-          
+          <ul class="mobileNavbarLists ">
+              <li class="nav-item">
+                  <a class="mobileList mt-5  ms-0 ms-md-5 ms-lg-5" aria-current="page" href="about.html">About us</a>
+              </li>
+              <li class="nav-item ms-0 ms-md-5 ms-lg-5">
+                  <a class="mobileList mt-1" href="#">Events</a>
+              </li>
+              <li class="nav-item ms-0 ms-md-5 ms-lg-5">
+                  <a class="mobileList mt-1 mt-md-2 mt-lg-2" href="#">Live stream</a>
+              </li>
+              <li class="nav-item dropdown ms-0 ms-md-5 ms-lg-5">
+                  <a class=" dropdown-toggle mobileList mt-1 mt-md-2 mt-lg-2" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Media & Resources
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="message.html">Messages</a></li>
+                      <li><a class="dropdown-item" href="#">Transcript</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item ms-0 ms-md-5 ms-lg-5 mt-1 mt-md-2 mt-lg-2">
+                  <a class="mobileList" href="#">Contact Us</a>
+              </li>
+          </ul>
+      </div> 
+</nav>
+<section class=" devotional-section1">
+    <div>
+        <img src="images/Rectangle 16703.png" alt="" style="width: 100%;">
         </div>
-      </section>
-  
-
-<!-- We'd Love To Hear From You! -->
-<footer class="p-0 p-md-3 p-lg-3 ">
+         <div class="mt-5 ">
+            <h2 class="h5 text-uppercase">YE ASK, AND RECEIVE NOT</h2>
+            <p class="mt-3 ">In the midst of so much hostility to the life of God, God has kept our gaze on Him. As a people, discerning God’s mercy and blessings to us is a good exercise. Sometimes, we get overwhelmed by the thoughts the devil brings, and if we are not careful, we can slip into depression. In this season where we are advancing, we must thank God and stay in thanksgiving then, we will see our hearts begin to leap for joy because God has been faithful to us. We often grumble when we do not have money, but what the Lord has done for us is much more than what we can ever think, even the things we do not know. As we age, we come to a realization of how the Lord has saved us from some things and give thanks.    
+                <br>
+                <br>
+                In this season of great salvation and life, we are being shown God’s mercy, love, and blessings. As a result, Satan causes us to compare ourselves with one another and would want to belittle what we are hearing and equate the blessings to bread and butter. He can bring up the issues that happened months back, and we begin to feel very bad and our hearts sad, but the solution is to stay in thanksgiving.
+                <br>
+                <br>
+                Every believer must know to be thankful; if we know what Satan wants for us and how God has shown us mercy, we will stay in thanksgiving. Let us ensure we wage that warfare of being thankful. One thing about the season of great blessing and salvation is that we must be thankful. The atmosphere Satan is releasing is that of being unthankful, so it has to be warfare to stay in thanksgiving because the more we see what God has done, the more we discern that the Lord is good. Whatever situation or circumstance of life we go through, we should count our blessings and know definitely that God has been good to us.
+            </p>
+            <h2 class="h5 text-uppercase">CONFESSION</h2>
+            <p>Lord, cause my heart to continually discern your mercy and blessings to me in the midst of life's joys and <br>troubles. Let my mouth continually bring forth praise and thanksgiving to You. Amen.</p>
+        </div>
+</section>
+        <!-- section10 from index.html -->
+    <section class="section10 mt-5  ">
+      <h2 class=" ms-5">NEVER MISS OUT</h2>
+      <div class="section10-content-area container-fluid row p-5">
+          <div class="col-12 col-md-6 col-lg-6"><img src="/images/a girl streaming.png" alt="" class="w-100"></div>
+          <div class="col-12 col-md-6 col-lg-6">
+              <div class="section10-content-area-container d-flex justify-content-between">
+                  <h1>Messages</h1>
+                  <p>LISTEN NOW</p>
+              </div>
+              <div class="section10-content-area-container d-flex justify-content-between">
+                  <h1>Daily Devotionals</h1>
+                  <p>READ NOW</p>
+              </div>
+              <div class="section10-content-area-container d-flex justify-content-between">
+                  <h1>Stay in Touch</h1>
+                  <p>STREAM NOW</p>
+              </div>
+              <div class="section10-content-area-container d-flex justify-content-between">
+                  <h1>Supernatural Clinic Manual</h1>
+                  <p class="ms-4">STREAM NOW</p>
+              </div>
+              <div class="section10-content-area-container d-flex justify-content-between">
+                  <h1>Follow us on the Media</h1>
+                  <p>Follow Now</p>
+              </div>
+          </div>
+      </div>
+  </section>
+    <footer class="p-0 p-md-3 p-lg-3 ">
     <div class=" d-flex justify-content-around">
         <div class="container mt-3 ">
             <img src="/images/loveseal-logo.png" alt="">
@@ -167,7 +172,8 @@
         </div>
     </div> 
  </footer>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
- <script src="/js/index.js"></script> 
-</body>
+       <script src="/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
 </html>
+

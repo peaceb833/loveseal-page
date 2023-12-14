@@ -1679,3 +1679,36 @@ textarea{
 .header-section1{
     background: url(/images/pexels-david-alberto-carmona-coto-1151418\ 1.png);
 }
+.devotional-section1{
+    padding: 10em;
+}
+.devotional-section1 h2{
+    color: #000;
+    font-family: Saol Display;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+.devotional-section1 p{
+    color: #323232;
+    font-family: "Onest",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 206%; /* 41.2px */
+}
+
+@media(max-width:768px) {
+    .devotional-section1{
+        padding: 1em;
+    } 
+    .devotional-section1 p{
+        color: #323232;
+        font-family: "Onest",sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 41.2px */
+    } 
+}
