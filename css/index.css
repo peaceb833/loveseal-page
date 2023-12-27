@@ -1371,7 +1371,7 @@ header{
 }
 
 .contact-section1-img-container img{
-    margin-top: -2em;
+    margin-top: -3em;
     
 }
 .contact-section1{
@@ -1482,9 +1482,13 @@ textarea{
     border-radius: 20px;
 }
 .contact-img1{
-    width: 100%;}
+    width: 100%;
+    border-radius: 30px;
+}
 .contact-img2{
-    width: 80%;}
+    width: 80%;
+    border-radius: 30px;
+}
 .contact-section2-content p{
     color: var(--Grey-3, #5C5C5C);
     font-family: Onest;
@@ -1499,6 +1503,10 @@ textarea{
     width: 100%;}
 .contact-img2{
     width: 100%;}
+    .contact-section1-img-container img{
+        margin-top: -2em;
+        
+    }
 
 }
 
@@ -1676,8 +1684,13 @@ textarea{
 }
 
 /* DEVOTIONAL SECTION */
-.header-section1{
-    background: url(/images/pexels-david-alberto-carmona-coto-1151418\ 1.png);
+.devotional-header-content{
+    /* background: url(/images/pexels-david-alberto-carmona-coto-1151418\ 1.png); */
+    
+
+}
+.devotional-header-content img{
+    margin-top: -3%;
 }
 .devotional-section1{
     padding: 10em;
@@ -1698,6 +1711,11 @@ textarea{
     font-weight: 300;
     line-height: 206%; /* 41.2px */
 }
+.devotional-text-content{
+    background: url(/images/pexels-david-alberto-carmona-coto-1151418\ 1.png);
+    height: 60vh;
+   
+}
 
 @media(max-width:768px) {
     .devotional-section1{
@@ -1711,4 +1729,33 @@ textarea{
         font-weight: 300;
         line-height: 150%; /* 41.2px */
     } 
+}
+
+.manual-section2-container1{
+    background: url(/images/pexels-monstera-production-7412085\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+}
+.manual-section2-container2{
+    background: url(/images/praying-together.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 80vh;
+}
+.manual-section2-container3{
+    background: url(/images/pexels-monstera-production-7412085\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 80vh;
+}
+.manual-section2-container4{
+    background: url(/images/image\ 19\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 80vh;
 }
