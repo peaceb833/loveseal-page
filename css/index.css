@@ -1589,6 +1589,7 @@ textarea{
     border-bottom: 1px solid #D9D9D9;
     background: #FFF;
     border: none;
+    font-family:  "Onest", sans-serif;
 }
 .wrapper-for-dropdown-container{
    width: 100%;
@@ -1737,6 +1738,8 @@ textarea{
     background-size: cover;
     background-position: center center;
     height: 80vh;
+    background-color: #c8c8ce;
+    background-blend-mode: multiply;
 }
 .manual-section2-container2{
     background: url(/images/praying-together.png);
