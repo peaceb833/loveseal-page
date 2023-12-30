@@ -63,4 +63,18 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+var progress= document.querySelector("#progress");
+var video= document.querySelector(".video");
+var ctrlIcon= document.querySelector(".play-btn");
+
+video.onlodedmetadata= function(){
+  progress.max = video.duration;
+  progress.value = video.currentTime;
+}
+
+function playpause(){
+  if(ctrlIcon.classList.contains(playpause))
+}
+
+
 

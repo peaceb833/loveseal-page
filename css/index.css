@@ -281,7 +281,14 @@
     width: auto;
 }
 .section2-img-container img{
-    width: 300px;
+   width:100%;
+    filter:brightness(90%)
+}
+.section2-img-container button{
+    margin-top: -6em;
+}
+.section2-img-container .button-container{
+    /* margin-top: -5em; */
 }
 
 .section2-img-container h2 {
@@ -829,8 +836,12 @@ footer .active {
     background: #9c6161;
 }
 .section2-img-container img{
-    width: 200px;
+    width:100%;
+  
     
+}
+.section2-img-container button{
+    margin-top: -6em;
 }
 .section2-img-container h2 {
     color: #FFF;
@@ -1733,7 +1744,7 @@ textarea{
 }
 
 .manual-section2-container1{
-    background: url(/images/pexels-monstera-production-7412085\ 1.png);
+    background: url(/images/img-of-happy-family.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1741,24 +1752,77 @@ textarea{
     background-color: #c8c8ce;
     background-blend-mode: multiply;
 }
-.manual-section2-container2{
-    background: url(/images/praying-together.png);
+.manual-content-container h6{
+    color: #FFF;
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136.5%; /* 21.84px */
+    text-transform: uppercase;
+ }
+ .manual-content-container h4{
+    color: #FFF;
+    font-family: Saol Display;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 136.5%; /* 43.68px */
+    text-transform: uppercase;
+ } 
+ .manual-content-container p{
+    font-family: Onest;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.5%; /* 24.15px */
+ } 
+ .supernatural-clinic-container h6{
+    color: #F46918;
+    font-family: Onest;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 136.5%; /* 21.84px */
+    text-transform: uppercase;
+ }
+
+.all-devotional-page-container{
+    background: url(/images/little-girl-studying-the-bible.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     height: 80vh;
+    background-color: #c8c8ce;
+    background-blend-mode: multiply;   
 }
-.manual-section2-container3{
-    background: url(/images/pexels-monstera-production-7412085\ 2.png);
-    background-repeat: no-repeat;
+
+.message-player-container{
+    background: url(/images/image\ 19.png);
+    width: 100%;
+    height: 100vh;
     background-size: cover;
-    background-position: top center;
-    height: 80vh;
+
 }
-.manual-section2-container4{
-    background: url(/images/image\ 19\ \(1\).png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    height: 80vh;
+#progress{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 6px;
+    border-radius: 12.394px;
+    background: rgba(255, 255, 255, 0.20);
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 40px;
+    height:8px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(73, 72, 72, 0.22);
+
+}
+.play-btn{
+    
+}
+.play-message-content-container button{
+    background-color: #C32125;
+
 }
