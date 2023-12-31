@@ -13,7 +13,7 @@
 
     <title>message-player</title>
   </head>
-  <body class="body  ">
+  <body class="body">
     <div class="container">
         <nav class="navbars navbar pt-4 px-2 navbar-expand-lg bg-transparent bg-light" style="height: fit-content;">
             <div class="smflx-logo-holder ps-md-5 ps-lg-5">
@@ -85,14 +85,16 @@
 </section>
     <section class="container ">
         <div class="row ">
-            <video src="/videos/landing-page-video.mp4" controls class="video"></video>
-           <div class="container d-flex justify-content-between">
-            <div class="controls">
-               <img src="/images/backward.png" alt="" class="w-25">
+            <video src="/videos/landing-page-video.mp4" class="video "></video>
+           <div class="container px-2 px-md-5 px-lg-5 ">
+            <div class="w-100 input-container container d-flex justify-content-between py-0 py-md-3 py-lg-3">
+            <div class="controls ">
+               <img src="/images/backward.png" alt="" class="w-25 ">
                 <img src="/images/play-button.png" alt="" class="play-btn w-25">
                 <img src="/images/forward.png" alt="" class="w-25">
             </div>
-            <div class="w-100 container"><input type="range" value="0" id="progress" class=" rounded"></div>  
+                <input type="range" value="0" id="progress" class=" rounded">
+              
             <div><img src="/images/Volume.png" alt="" class="w-75"></div> 
         </div>
            </div>

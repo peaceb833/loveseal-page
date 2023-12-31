@@ -72,8 +72,30 @@ video.onlodedmetadata= function(){
   progress.value = video.currentTime;
 }
 
-function playpause(){
-  if(ctrlIcon.classList.contains(playpause))
+ctrlIcon.onclick=()=>{
+  if(ctrlIcon.classList.contains("fa-pause")){
+    video.pause();
+    ctrlIcon.classList.remove("fa-pause")
+    ctrlIcon.classList.add(".play-btn")
+
+  }
+  else{
+    video.play();
+    ctrlIcon.classList.add("fa-pause")
+    ctrlIcon.classList.remove(".play-btn")
+
+  }
+}
+if(video.play()){
+  setInterval(()=>{
+    progress.value=video.currentTime;
+  },500)
+}
+progress.onchange=()=>{
+  video.play();
+  video.currentTime=progress.value;
+  ctrlIcon.classList.add("fa-pause")
+  ctrlIcon.classList.remove(".play-btn")
 }
 
 
