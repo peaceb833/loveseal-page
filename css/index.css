@@ -1325,6 +1325,7 @@ footer p {
     color:rgba(12, 13, 40, 1);
     text-decoration: none;
     font-size: .8rem; 
+    font-family:" onset", san-serif;
 }
 
 
@@ -1825,6 +1826,9 @@ textarea{
 .play-message-content-container button{
     background-color: #C32125;
 
+}
+.play-message-content-container p{
+    font-size: .9em;
 }
 .input-container{
     width: 100%;
