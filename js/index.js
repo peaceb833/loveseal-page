@@ -2,6 +2,41 @@
 const mobileMenuEl = document.querySelector('.mobileNavMenu');
 const openEl = document.querySelector('.burger-menu');
 const closeEl = document.querySelector('.close');
+const backwardButton = document.querySelector('.backward');
+const forwardButton = document.querySelector('.forward');
+
+
+backwardButton.onclick=()=> {
+  video.currentTime -= 5; // You can adjust the value (in seconds) by which the video should go backward
+}
+forwardButton.onclick=()=> {
+  video.currentTime += 5; // You can adjust the value (in seconds) by which the video should go backward
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  var volumeIcon = document.getElementById('volumeIcon');
+  var volumeControl = document.getElementById('volumeControl');
+
+  // Initial state
+  volumeControl.style.display = 'none';
+
+  // Toggle volume control on volume icon click
+  volumeIcon.addEventListener('click', function () {
+      if (volumeControl.style.display === 'none') {
+          volumeControl.style.display = 'block';
+      } else {
+          volumeControl.style.display = 'none';
+      }
+  });
+
+  // Update volume level when volume control is adjusted
+  volumeControl.addEventListener('input', function () {
+      var volumeLevel = volumeControl.value;
+      // Set the volume of the video (assuming your video element has the class 'video')
+      document.querySelector('.video').volume = volumeLevel / 100;
+  });
+});
+
 openEl.addEventListener('click', () => {
     mobileMenuEl.classList.toggle("open");
     
@@ -39,21 +74,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Get all the transcript items
   var transcriptItems = document.querySelectorAll('.message-section2-content-container');
-
-  // Add click event listener to the search image
   var searchImage = document.querySelector('.search-container .fa-search');
   searchImage.addEventListener('click', function() {
-    // Get the search term from the input
     var searchTerm = searchInput.value.trim().toLowerCase();
-
-    // Loop through all the transcript items
     for (var i = 0; i < transcriptItems.length; i++) {
       var transcriptItem = transcriptItems[i];
-
-      // Get the transcript text
       var transcriptText = transcriptItem.innerText.toLowerCase();
-
-      // Show or hide the transcript item based on the search term
       if (transcriptText.includes(searchTerm)) {
         transcriptItem.style.display = 'block';
       } else {
@@ -97,6 +123,13 @@ progress.onchange=()=>{
   ctrlIcon.classList.add("fa-pause")
   ctrlIcon.classList.remove(".play-btn")
 }
+volume.onclick=()=> {
+  var video = document.querySelector('.video');
+  var volumeInput = document.querySelector('.volume');
+  
+  var volumeValue = volumeInput.value / 100;
+    video.volume = volumeValue;
+}
 
-
+// FORM FIELD
 

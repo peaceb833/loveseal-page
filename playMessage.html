@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="utf-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
@@ -86,23 +86,26 @@
     <section class="container ">
         <div class="row ">
             <video src="/videos/landing-page-video.mp4" class="video "></video>
-           <div class="container px-2 px-md-5 px-lg-5 ">
+           <div class="container px-3 px-md-5 px-lg-5 ">
             <div class="w-100 input-container container d-flex justify-content-between py-0 py-md-3 py-lg-3">
             <div class="controls ">
-               <img src="/images/backward.png" alt="" class="w-25 ">
+               <img src="/images/backward.png" alt="" class="w-25 backward">
                 <img src="/images/play-button.png" alt="" class="play-btn w-25">
-                <img src="/images/forward.png" alt="" class="w-25">
+                <img src="/images/forward.png" alt="" class="w-25 forward">
             </div>
-                <input type="range" value="0" id="progress" class=" rounded">
-              
-            <div><img src="/images/Volume.png" alt="" class="w-75 volume"></div> 
+            <div id="timer" class="ml-3"></div>
+            <input type="range" value="0" id="progress" class=" rounded">            
+            <div class="volume-container d-flex">
+                <img src="/images/Volume.png" alt="" class="w-75 volume" id="volumeIcon">
+                <!-- <input type="range" value="100" id="volumeControl" class="rounded w-50" > -->
+            </div>
         </div>
            </div>
             
     </section>
     <div class="play-message-content-container container">
         <p class="mt-5 fw-bold h4">SUNDAY APOSTOLIC BREAKTHROUGH IMPARTATION SERVICE</p>
-        <h2 class="text-uppercase">The Victory of Salvation</h2>
+        <h2 class="text-uppercase h4">The Victory of Salvation</h2>
         <div class="d-block d-md-flex d-lg-flex  message-section2-content-btn-container  mt-3">
             <p class="fw-bold">Pst. Thompson Ehima</p>
             <p class=" ps-3 text-secondary">15th October 2023</p>

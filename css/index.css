@@ -162,6 +162,7 @@
     color:white;
     text-decoration: none;
     font-size: .8rem;
+    font-family:"onset", sans-serif;
     
     
 }
@@ -1002,7 +1003,8 @@ footer p {
 .about-header .navbarlists a{
         color:white;
         text-decoration: none;
-        font-size: .8rem; 
+        font-size: .8rem;
+        font-family: "onset", sans-serif; 
 }
  .about-header{
     background-color: #0C0D28;;
@@ -1325,7 +1327,7 @@ footer p {
     color:rgba(12, 13, 40, 1);
     text-decoration: none;
     font-size: .8rem; 
-    font-family:" onset", san-serif;
+    font-family:" onset",sans-serif;
 }
 
 
@@ -1531,7 +1533,7 @@ textarea{
     color: rgba(12, 13, 40, 1);
     text-decoration: none;
     font-size: .8rem;
-    font-family:"Onest",sans-serif;
+    font-family:"Onest", sans-serif;
 }
 .message-section2{
     color: #020213;
@@ -1828,7 +1830,7 @@ textarea{
 
 }
 .play-message-content-container p{
-    font-size: .9em;
+    font-size: .8em;
 }
 .input-container{
     width: 100%;
