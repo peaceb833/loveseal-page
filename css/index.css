@@ -279,10 +279,10 @@
     scroll-behavior: smooth;
 }
 .section2-img-container::-webkit-scrollbar{
-    width: auto;
+    width: 100%;
 }
 .section2-img-container img{
-   width:100%;
+   width:auto;
     filter:brightness(90%)
 }
 .section2-img-container button{
@@ -837,7 +837,7 @@ footer .active {
     background: #9c6161;
 }
 .section2-img-container img{
-    width:100%;
+    
   
     
 }
