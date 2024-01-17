@@ -841,6 +841,17 @@ footer .active {
   
     
 }
+.text-content{
+    width: 80%;
+    margin: 2% auto;
+    background-color: #FFF3D6;
+    margin-top: -4.3em;
+    color: #1E1E1E;
+    
+    }
+.text-content h1{
+    font-size: 1em;
+        }
 .section2-img-container button{
     margin-top: -6em;
 }
@@ -914,9 +925,9 @@ footer .active {
 }
 
 .section6-img-container img {
-    width: 95%;
+    width: 100%;
     height: auto;
-    margin-top: 1em;
+    padding-right: 0;
 }
 .section8-img-text-container h6 {
     width: 310px;
@@ -965,12 +976,7 @@ footer p {
     height: auto;
     margin-top: 1em;
 }
-.text-content{
-    width: 80%;
-    margin: 2% auto;
-    margin-top: -5.5em;
-    color: #1E1E1E;
-    }
+
 .section8 h2 {
     width: 334px;
     padding-left: 0;
@@ -1120,7 +1126,7 @@ footer p {
     margin-top: 3em;
 }
 .about-section2{
-    padding-left: 6em;
+    /* padding-left: 6em; */
 }
 .about-section3-text-content{
     margin-top: 7em;
@@ -1157,9 +1163,21 @@ footer p {
 
 .about-section5{
     margin-top: 10em;
+    
+}
+.about-section h1{
+    
+    
+    font-family: Saol Display;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 73px;
+    letter-spacing: 0em;
+    text-align: center;
 
 }
 .about-section5 h1{
+    width: 80%;
     margin: 0% auto;
     color: #000;
     text-align: center;
@@ -1275,12 +1293,12 @@ footer p {
     
     }
     .about-section9-content {
-        display: flex;
+        
         /* justify-content: ; */
     }
     
     .flex-item {
-        margin-bottom: 10px; /* Add margin between items */
+         /* Add margin between items */
     }
      /* display: grid;
         grid-template-columns: 1px 1px 1px; */
@@ -1300,6 +1318,11 @@ footer p {
     letter-spacing: 0.81px;
     border: none;
     }
+@media(max-width:500px) {
+    .about-section6-text-content{
+        margin-top: 4em;
+    }
+}
 @media(max-width:768px) {
     .about-hero-content h2{
         color: #FFF;
@@ -1518,7 +1541,7 @@ textarea{
 .contact-img2{
     width: 100%;}
     .contact-section1-img-container img{
-        margin-top: -2em;
+        margin-top: -3em;
         
     }
 
@@ -1788,7 +1811,14 @@ textarea{
     line-height: 136.5%; /* 21.84px */
     text-transform: uppercase;
  }
-
+.all-devotional-page-header{
+    background-image: url(/images/alldevotional-img.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left, right;
+}
 .all-devotional-page-container{
     background: url(/images/little-girl-studying-the-bible.png);
     background-repeat: no-repeat;
