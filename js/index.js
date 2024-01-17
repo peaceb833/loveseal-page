@@ -1,10 +1,19 @@
-// AOS.init({duration:2000});
+
+
 const mobileMenuEl = document.querySelector('.mobileNavMenu');
 const openEl = document.querySelector('.burger-menu');
 const closeEl = document.querySelector('.close');
 const backwardButton = document.querySelector('.backward');
 const forwardButton = document.querySelector('.forward');
 
+openEl.addEventListener('click', () => {
+  mobileMenuEl.classList.toggle("open");
+  
+});
+closeEl.addEventListener('click', () => {
+  mobileMenuEl.classList.remove("open");
+  console.log('clicked');
+});
 
 backwardButton.onclick=()=> {
   video.currentTime -= 5; // You can adjust the value (in seconds) by which the video should go backward
@@ -35,15 +44,6 @@ document.addEventListener('DOMContentLoaded', function () {
       // Set the volume of the video (assuming your video element has the class 'video')
       document.querySelector('.video').volume = volumeLevel / 100;
   });
-});
-
-openEl.addEventListener('click', () => {
-    mobileMenuEl.classList.toggle("open");
-    
-});
-closeEl.addEventListener('click', () => {
-    mobileMenuEl.classList.remove("open");
-    console.log('clicked');
 });
 
 
